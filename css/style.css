@@ -170,7 +170,7 @@ ul li{
 	color: white;
 }
 
-/* intro section css */
+/* intro section */
 .countdown-center{text-align: center !important;margin: 0 auto;display: inline-block;}
 .banner-countdown{color: #fff;width: 565px;margin: auto;margin-top: 10px;margin-bottom: 25px;}
 .countdown-left{height: 60px;float: left;line-height: 60px;color: #fff;margin-top: 25px;}
@@ -206,11 +206,47 @@ ul li{
 .buy-tokens:hover {
 	color: #FBFBFB;
 	background: #C80A0A;
-	background-image: -webkit-linear-gradient(top, #C80A0A, #C80A0A);
-	background-image: -moz-linear-gradient(top, #C80A0A, #C80A0A);
-	background-image: -ms-linear-gradient(top, #C80A0A, #C80A0A);
-	background-image: -o-linear-gradient(top, #C80A0A, #C80A0A);
-	background-image: linear-gradient(to bottom, #C80A0A, #C80A0A);
+	background-image: -webkit-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -moz-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -ms-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -o-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: linear-gradient(to bottom, #E16060 , #C80A0A);
 	text-decoration: none;
 }
-/* intro section css */
+/* intro section */
+
+/* advantages section */
+.wrapper-advantages-investors{
+	padding: 0 60px;
+}
+
+.advantages-investors-title{
+	display: table;
+	white-space: nowrap;
+	color: #212F4F;
+	text-align: left;
+	font-size: 30px;
+}
+.advantages-investors-title:after {
+	border-top: 3px solid #212F4F;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 160px;
+}
+.advantages-investors-title:after {
+	left: 20px;
+}
+
+.advantages-investors-content{
+	margin-top: 32px;
+	padding: 0 20% 0 30px;
+}
+
+.advantages-investors-content ul li{
+	font-size: 20px;
+	/*list-style-image: url('');*/
+}
+/* advantages section */
+
