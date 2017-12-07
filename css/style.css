@@ -118,6 +118,7 @@ a {
 
 .advantages{
 	position: relative;
+	top: 700px;
 }
 
 .inner-platform{
@@ -153,5 +154,18 @@ ul li{
 }
 
 .advantages-bg{
+	background: #212F4F;
+}
 
+.right-block{
+	text-align: right;
+	margin-top: 800px;
+}
+
+.right-block ul li{
+	color: white;
+}
+
+.right-block .platform-title{
+	color: white;
 }
