@@ -100,6 +100,7 @@ a {
 	position: relative;
 	margin-top: 100px;
 	padding-top: 150px;
+	    height: 1500px;
 }
 
 .platform-bg{
@@ -118,7 +119,7 @@ a {
 
 .advantages{
 	position: relative;
-	top: 700px;
+	    height: 2050px;
 }
 
 .inner-platform{
@@ -168,4 +169,22 @@ ul li{
 
 .right-block .platform-title{
 	color: white;
+}
+
+.inner-tokens{
+	position: relative;
+	z-index: 2;
+	background: #212f4f;
+}
+
+.inner-tokens .image{
+	background: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.graph-image{
+	text-align: center;
+	padding-top: 100px;
 }
