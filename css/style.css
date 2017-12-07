@@ -128,7 +128,7 @@ a {
 
 }
 
-.inner-invested,.inner-advantages,.inner-documents{
+.inner-invested,.inner-advantages,.inner-documents,.inner-team,.inner-road{
 	position: relative;
 	z-index: 2;
 }
@@ -192,6 +192,7 @@ ul li{
 .documents{
 	position: relative;
 	padding-top: 250px;
+	height: 1800px;
 }
 
 .documents-bg{
@@ -492,4 +493,98 @@ ul li{
 	padding: 0 30px 0 45%;
 }
 /* advantages investors section end */
->>>>>>> 8585aad4c841f094ed2e2dd491efa135d4f28528
+
+.subscribe-field input{
+	width: 100%;
+	color: #1A2435;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.subscribe-field a span{
+	width: 100%;
+	display: inline-block;
+	padding: 20px;
+	background: #1A2435;
+	color: #FE8C1A;
+	border: 2px solid #FE8C1A;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.subscribe{
+	background: #212f4f;
+}
+
+h2{
+    white-space: nowrap;
+    color: #212F4F;
+    font-size: 30px;
+}
+
+.subscribe h2{
+	color: white;
+	text-align: center;
+}
+
+.our-team h2{
+	text-align: center;
+}
+
+.our-team h4{
+    font-size:  22px;
+    color: #1a2435;
+    text-align: center;
+}
+
+.subscribe h4{
+    font-size:  22px;
+	text-align: center;
+}
+
+.subscribe {
+    padding-top: 100px;
+    background: #212f4f;
+    text-align: center;
+	padding-bottom: 300px;
+}
+
+
+.team-bg{
+	position: absolute;
+    top: -200px;
+    z-index: 1;
+    width: 100%;
+}
+
+.our-team{
+	position: relative;
+}
+
+.advisors{
+	padding-top: 200px;
+	background: #212f4f;
+}
+
+.advisors h2{
+	color: white;
+	text-align: center;
+}
+
+.road-map{
+	background: #212f4f;
+	position: relative;
+}
+
+.footer-bg{
+	bottom: 0;
+	position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.inner-road{
+	padding-bottom: 400px;
+	text-align: center;
+}
