@@ -160,7 +160,7 @@ ul li{
 
 .right-block{
 	text-align: right;
-	margin-top: 800px;
+	margin-top: 120px;
 }
 
 .right-block ul li{
@@ -219,3 +219,277 @@ ul li{
 	background: #212f4f;
 	height: 300px;
 }
+
+/* intro section */
+.countdown-center{text-align: center !important;margin: 0 auto;display: inline-block;}
+.banner-countdown{color: #fff;width: 565px;margin: auto;margin-top: 10px;margin-bottom: 25px;}
+.countdown-left{height: 60px;float: left;line-height: 60px;color: #fff;margin-top: 25px;}
+.countdown-left h3{font-size: 30px;}
+.countdown-center{text-align: center;margin-top: 20px;}
+.countdown-block{width: 80px;float: left;}
+.countdown-span{color: #FE8C1A; text-align: center}
+.countdown-sep{width: 20px;float: left;height: 60px;line-height: 60px;font-size: 30px;color: #FE8C1A;text-align: center;}
+.countdown-block-main{width: 80px;height: 80px;text-align: center; font-size: 50px; line-height: 80px;color: white;background-size: contain;}
+.countdown-block span{display: block;text-align: right;font-size: 14px;color: #fff;margin-top: 3px;}
+
+.buy-tokens{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 60px;
+
+	background: #FBFBFB;
+	background-image: -webkit-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -moz-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -ms-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -o-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: linear-gradient(to bottom, #FBFBFB, #E1E1E1);
+
+	color: #C80A0A;
+	border-radius: 28px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+}
+
+.buy-tokens:hover {
+	color: #FBFBFB;
+	background: #C80A0A;
+	background-image: -webkit-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -moz-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -ms-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -o-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: linear-gradient(to bottom, #E16060 , #C80A0A);
+	text-decoration: none;
+}
+/* intro section */
+
+/* total invested */
+.total-invested{
+	position: relative;
+}
+
+.invested-item{
+	margin-top: 20px;
+	height: 120px;
+	background: #0D121D ;
+	border-radius: 60px 0 0 60px;
+}
+.invested-item-2 {
+	margin-top: 20px;
+	height: 120px;
+	background: #0D121D ;
+	border-radius: 0 60px 60px 0;
+}
+.invested-item img{
+	padding-left: 55px;
+}
+.invested-item-2 img{
+	padding-right: 55px;
+}
+.invested-item-in {
+	padding-top: 33px;
+	float: right;
+}
+.invested-item-in-2 {
+	padding-top: 33px;
+	float: left;
+}
+.invested-item-name{
+	font-size: 35px;
+	padding-left: 80px;
+	margin-left: -120%;
+}
+.invested-item-name-2{
+	font-size: 35px;
+	padding-left: 460px;
+
+}
+.invested-item-name-3{
+	font-size: 35px;
+	padding-left: 80px;
+	margin-left: -105%;
+}
+.invested-item-value{
+	font-size: 35px;
+	font-weight: 300;
+	padding-right: 120px;
+	color: #FE8C1A ;
+	float: right;
+}
+.invested-item-value-2 {
+	font-size: 35px;
+	font-weight: 300;
+	color: #FE8C1A ;
+	padding-left: 120px;
+}
+
+.total-invested .invested-item:nth-child(even){
+	text-align: right;
+	margin-right: 20%;
+}
+.total-invested .invested-item-2:nth-child(even){
+	text-align: right;
+	margin-right: 20%;
+}
+
+.total-invested .invested-item:nth-child(odd){
+	text-align: left;
+	margin-left: 20%;
+}
+
+.invested-bg{
+	position: absolute;
+	top: -200px;
+	z-index: 1;
+	width: 100%;
+}
+/* total invested end */
+
+
+/* buy and sell platform */
+/*------------------------------------------------------------------
+  	[Accordion]
+------------------------------------------------------------------*/
+.accordion .panel-default {
+	border: none;
+}
+
+.accordion .panel-heading {
+	border-radius: 0;
+}
+
+.accordion .panel-default > .panel-heading {
+	color: #ffffff;
+	background: #212F4F;
+	border: none;
+	padding: 0;
+}
+
+.panel-title-child{
+	color: white;
+}
+
+.panel-title-child:hover, .panel-title-child::selection, .panel-title-child:visited{
+	color: #FE8C1A;
+}
+
+.accordion .panel-title {
+	font-size: 22px;
+}
+
+.accordion .panel-title-child {
+	display: block;
+	padding: 30px;
+	text-decoration: navajowhite;
+}
+
+.accordion .panel-title-child:active,
+.accordion .panel-title-child:link{
+	color: white;
+}
+
+.accordion .panel-group .panel + .panel {
+	border-radius: 0;
+	margin-top: 10px;
+}
+
+.accordion .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	font-size: 16px;
+	border-top: none;
+	padding: 0 30px 30px 30px;
+	margin-top: -1px;
+}
+
+.accordion [aria-expanded="true"],
+.accordion .collapse.in {
+	color: #fff;
+	background: #212F4F;
+}
+/* buy and sell platform end */
+
+/* our mission */
+.mission-list {
+	width: 620px;
+	float: right;
+}
+.mission-list li {
+	font-size: 23px;
+	color: #FBFBFB ;
+}
+.inner-platform .row {
+	margin-top: 80px;
+}
+.inner-platform .image {
+	margin-top: 5%;
+}
+/* our mission end */
+
+/* advantages investors section */
+.wrapper-advantages-investors{
+	padding: 0 60px;
+}
+
+.advantages-investors-title{
+	display: table;
+	white-space: nowrap;
+	color: #212F4F;
+	text-align: left;
+	font-size: 30px;
+}
+.advantages-investors-title:after {
+	border-top: 3px solid #212F4F;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 160px;
+	left: 20px;
+}
+
+.advantages-investors-content{
+	margin-top: 32px;
+	padding: 0 20% 0 30px;
+}
+
+.advantages-investors-content ul li{
+	font-size: 20px;
+	/*list-style-image: url('');*/
+}
+/* advantages investors section end */
+
+
+
+/* advantages investors section */
+.wrapper-advantages-investors{
+	padding: 0 60px;
+}
+
+.wrapper-title-advantages-users{
+	float: right;
+}
+
+.advantages-users-title{
+	display: table;
+	white-space: nowrap;
+	color: #FBFBFB;
+	text-align: right;
+	font-size: 30px;
+}
+.advantages-users-title:before {
+	border-top: 3px solid #FBFBFB;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 160px;
+	left: -20px;
+}
+
+.advantages-users-content{
+	margin-top: 32px;
+	padding: 0 30px 0 45%;
+}
+/* advantages investors section end */
+>>>>>>> 8585aad4c841f094ed2e2dd491efa135d4f28528
