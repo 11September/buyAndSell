@@ -169,3 +169,48 @@ ul li{
 .right-block .platform-title{
 	color: white;
 }
+
+/* intro section css */
+.countdown-center{text-align: center !important;margin: 0 auto;display: inline-block;}
+.banner-countdown{color: #fff;width: 565px;margin: auto;margin-top: 10px;margin-bottom: 25px;}
+.countdown-left{height: 60px;float: left;line-height: 60px;color: #fff;margin-top: 25px;}
+.countdown-left h3{font-size: 30px;}
+.countdown-center{text-align: center;margin-top: 20px;}
+.countdown-block{width: 80px;float: left;}
+.countdown-span{color: #FE8C1A; text-align: center}
+.countdown-sep{width: 20px;float: left;height: 60px;line-height: 60px;font-size: 30px;color: #FE8C1A;text-align: center;}
+.countdown-block-main{width: 80px;height: 80px;text-align: center; font-size: 50px; line-height: 80px;color: white;background-size: contain;}
+.countdown-block span{display: block;text-align: right;font-size: 14px;color: #fff;margin-top: 3px;}
+
+.buy-tokens{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 60px;
+
+	background: #FBFBFB;
+	background-image: -webkit-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -moz-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -ms-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -o-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: linear-gradient(to bottom, #FBFBFB, #E1E1E1);
+
+	color: #C80A0A;
+	border-radius: 28px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+}
+
+.buy-tokens:hover {
+	color: #FBFBFB;
+	background: #C80A0A;
+	background-image: -webkit-linear-gradient(top, #C80A0A, #C80A0A);
+	background-image: -moz-linear-gradient(top, #C80A0A, #C80A0A);
+	background-image: -ms-linear-gradient(top, #C80A0A, #C80A0A);
+	background-image: -o-linear-gradient(top, #C80A0A, #C80A0A);
+	background-image: linear-gradient(to bottom, #C80A0A, #C80A0A);
+	text-decoration: none;
+}
+/* intro section css */

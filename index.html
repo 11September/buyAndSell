@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" href="css/jquery.countdown.css?v=1.0.0.0" rel="stylesheet">
 	
 </head>
 <body>
@@ -16,11 +17,14 @@
 		<section class="intro">
 			<h1>BLOCKCHAIN CLASSIFIED</h1>
 			<p>PRE-ICO Starts in:</p>
-			<span>17</span>
-			<span>17</span>
-			<span>17</span>
-			<span>17</span>
-			<br><span>Buy tockens</span>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="countdown-center"></div>
+
+                    <a href="#" class="buy-tokens">BUY TOKENS</a>
+                </div>
+            </div>
 		</section>
 
 		<section class="total-invested">
@@ -123,4 +127,17 @@
 
 	</div>		
 </body>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js?v=1.0.0.0"></script>
+
+<script type="text/javascript">
+    $(window).load(function(){
+        $('.countdown-center').countdown('2017/12/11 01:30:00 UTC+9', function(event) {
+            $(this).html(event.strftime('<div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-days">%D</h4></div><span class="countdown-span">days</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-hours">%H</h4></div><span class="countdown-span">hours</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-minutes">%M</h4></div><span class="countdown-span">minutes</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-seconds">%S</h4></div><span class="countdown-span">seconds</span></div><div class="clear"></div>'));
+        });
+    });
+
+</script>
+
 </html>
