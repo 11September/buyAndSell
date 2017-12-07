@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  color: white;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+.header-ico{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	right: 0;
+}
+
+.header{
+	width: 100%;
+	position: fixed;
+}
+
+.intro{
+	background-image: url("../img/intro-bg.png");
+}
+
+.intro{
+	text-align: center;
+	padding-bottom: 40vh;
+	padding-top: 40vh;
+}
+
+.total-invested{
+	position: relative;
+}
+
+.invested-item{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #0D121D;
+}
+
+.total-invested .invested-item:nth-child(even){
+	text-align: right;
+	margin-right: 20%;
+}
+
+.total-invested .invested-item:nth-child(odd){
+	text-align: left;
+	margin-left: 20%;
+}
+
+.invested-bg{
+	position: absolute;
+	top: -200px;
+	z-index: 1;
+	width: 100%;
+}
+
+.platform{
+	position: relative;
+	margin-top: 100px;
+	padding-top: 150px;
+}
+
+.platform-bg{
+	position: absolute;
+	top: -200px;
+	z-index: 1;
+	width: 100%;
+}
+
+.advantages-bg{
+	position: absolute;
+	top: -100px;
+	z-index: 1;
+	width: 100%;
+}
+
+.advantages{
+	position: relative;
+}
+
+.inner-platform{
+	position: relative;
+	z-index: 2;
+
+}
+
+.inner-invested,.inner-advantages{
+	position: relative;
+	z-index: 2;
+}
+
+.platform-title{
+	text-align: center;
+	color: #0D121D;
+}
+
+.acordeon-platform{
+	padding-top: 100px;
+}
+
+.acordeon-platform .item{
+	background: #0D121D;
+	padding: 20px;
+	margin-top: 20px;
+} 
+
+ul li{
+	color: #0D121D;
+	list-style-type: disc;
+	font-size: 25px;
+}
+
+.advantages-bg{
+
+}
