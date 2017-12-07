@@ -159,7 +159,7 @@ ul li{
 
 .right-block{
 	text-align: right;
-	margin-top: 800px;
+	margin-top: 120px;
 }
 
 .right-block ul li{
@@ -215,7 +215,69 @@ ul li{
 }
 /* intro section */
 
-/* advantages section */
+
+/* buy and sell platform */
+/*------------------------------------------------------------------
+  	[Accordion]
+------------------------------------------------------------------*/
+.accordion .panel-default {
+	border: none;
+}
+
+.accordion .panel-heading {
+	border-radius: 0;
+}
+
+.accordion .panel-default > .panel-heading {
+	color: #ffffff;
+	background: #212F4F;
+	border: none;
+	padding: 0;
+}
+
+.panel-title-child{
+	color: white;
+}
+
+.panel-title-child:hover, .panel-title-child::selection, .panel-title-child:visited{
+	color: #FE8C1A;
+}
+
+.accordion .panel-title {
+	font-size: 22px;
+}
+
+.accordion .panel-title-child {
+	display: block;
+	padding: 30px;
+	text-decoration: navajowhite;
+}
+
+.accordion .panel-title-child:active,
+.accordion .panel-title-child:link{
+	color: white;
+}
+
+.accordion .panel-group .panel + .panel {
+	border-radius: 0;
+	margin-top: 10px;
+}
+
+.accordion .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	font-size: 16px;
+	border-top: none;
+	padding: 0 30px 30px 30px;
+	margin-top: -1px;
+}
+
+.accordion [aria-expanded="true"],
+.accordion .collapse.in {
+	color: #fff;
+	background: #212F4F;
+}
+/* buy and sell platform end */
+
+/* advantages investors section */
 .wrapper-advantages-investors{
 	padding: 0 60px;
 }
@@ -234,8 +296,6 @@ ul li{
 	position: relative;
 	top: 0.5em;
 	width: 160px;
-}
-.advantages-investors-title:after {
 	left: 20px;
 }
 
@@ -248,5 +308,38 @@ ul li{
 	font-size: 20px;
 	/*list-style-image: url('');*/
 }
-/* advantages section */
+/* advantages investors section end */
 
+
+
+/* advantages investors section */
+.wrapper-advantages-investors{
+	padding: 0 60px;
+}
+
+.wrapper-title-advantages-users{
+	float: right;
+}
+
+.advantages-users-title{
+	display: table;
+	white-space: nowrap;
+	color: #FBFBFB;
+	text-align: right;
+	font-size: 30px;
+}
+.advantages-users-title:before {
+	border-top: 3px solid #FBFBFB;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 160px;
+	left: -20px;
+}
+
+.advantages-users-content{
+	margin-top: 32px;
+	padding: 0 30px 0 45%;
+}
+/* advantages investors section end */
