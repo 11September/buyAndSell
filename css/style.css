@@ -356,6 +356,8 @@ ul li{
 ------------------------------------------------------------------*/
 .accordion .panel-default {
 	border: none;
+	margin-left: 50px;
+	margin-top: 170px;
 }
 
 .accordion .panel-heading {
@@ -389,7 +391,11 @@ ul li{
 
 .accordion .panel-title-child:active,
 .accordion .panel-title-child:link{
-	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	color: #FE8C1A;
+	text-decoration: underline;
 }
 
 .accordion .panel-group .panel + .panel {
@@ -398,16 +404,19 @@ ul li{
 }
 
 .accordion .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	font-size: 16px;
+	font-size: 20px;
+	font-weight: 300;
 	border-top: none;
 	padding: 0 30px 30px 30px;
 	margin-top: -1px;
+	line-height: 26px;
 }
 
 .accordion [aria-expanded="true"],
 .accordion .collapse.in {
 	color: #fff;
 	background: #212F4F;
+	border-radius: 0 0 10px 10px;
 }
 /* buy and sell platform end */
 
