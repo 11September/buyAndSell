@@ -178,6 +178,18 @@ a {
 
 /* Intro styles*/
 
+
+/* Platform styles*/
+
+.inner-platform .image{
+	text-align: right;
+}
+
+.inner-platform .image img{
+	width: 100%;
+}
+
+
 .total-invested{
 	position: relative;
 }
@@ -434,8 +446,16 @@ ul li{
 /*------------------------------------------------------------------
   	[Accordion]
 ------------------------------------------------------------------*/
+.panel-title span {
+	color: #FE8C1A;
+	border-bottom: 1px solid #FE8C1A;
+	display: inline-block;
+	padding-bottom: 3px;
+}
 .accordion .panel-default {
 	border: none;
+	margin-left: 50px;
+	margin-top: 170px;
 }
 
 .accordion .panel-heading {
@@ -469,7 +489,10 @@ ul li{
 
 .accordion .panel-title-child:active,
 .accordion .panel-title-child:link{
-	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	color: #FE8C1A;
 }
 
 .accordion .panel-group .panel + .panel {
@@ -478,16 +501,20 @@ ul li{
 }
 
 .accordion .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	font-size: 16px;
+	font-size: 20px;
+	font-weight: 300;
 	border-top: none;
 	padding: 0 30px 30px 30px;
 	margin-top: -1px;
+	line-height: 26px;
+	text-align: center;
 }
 
 .accordion [aria-expanded="true"],
 .accordion .collapse.in {
 	color: #fff;
 	background: #212F4F;
+	border-radius: 0 0 10px 10px;
 }
 /* buy and sell platform end */
 
@@ -501,7 +528,7 @@ ul li{
 	color: #FBFBFB ;
 }
 .inner-platform .row {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .inner-platform .image {
 	margin-top: 5%;
