@@ -558,11 +558,48 @@ ul li{
 /* buy and sell platform end */
 
 /* our mission */
+.blue{
+	color: #212F4F;
+}
+
+.our-mission-title{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	display: table;
+	white-space: nowrap;
+	color: #FBFBFB;
+	margin: 80px auto;
+	letter-spacing: 10px;
+}
+.our-mission-title:before {
+	border-top: 3px solid #212F4F;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: -20px;
+}
+.our-mission-title:after {
+	border-top: 3px solid #FBFBFB;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: 20px;
+}
+
+
 .mission-list {
+	margin-top: 20px;
+	font-size: 23px;
 	width: 620px;
 	float: right;
 }
 .mission-list li {
+	padding: 10px;
 	font-size: 23px;
 	color: #FBFBFB ;
 }
@@ -575,6 +612,10 @@ ul li{
 /* our mission end */
 
 /* advantages investors section */
+.advantages{
+	padding: 140px 0 0 0;
+}
+
 .wrapper-advantages-investors{
 	padding: 0 60px;
 }
@@ -585,6 +626,8 @@ ul li{
 	color: #212F4F;
 	text-align: left;
 	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 40px;
 }
 .advantages-investors-title:after {
 	border-top: 3px solid #212F4F;
@@ -602,7 +645,8 @@ ul li{
 }
 
 .advantages-investors-content ul li{
-	font-size: 20px;
+	padding: 10px;
+	font-size: 23px;
 	/*list-style-image: url('');*/
 }
 /* advantages investors section end */
@@ -619,11 +663,13 @@ ul li{
 }
 
 .advantages-users-title{
+	margin: 40px 0;
 	display: table;
 	white-space: nowrap;
 	color: #FBFBFB;
 	text-align: right;
 	font-size: 30px;
+	font-weight: bold;
 }
 .advantages-users-title:before {
 	border-top: 3px solid #FBFBFB;
@@ -638,7 +684,12 @@ ul li{
 .advantages-users-content{
 	margin-top: 32px;
 	padding: 0 30px 0 45%;
-	    padding-top: 700px;
+	padding-top: 0px;
+}
+
+.advantages-users-content ul li{
+	padding: 10px;
+	font-size: 23px;
 }
 /* advantages investors section end */
 
@@ -692,10 +743,10 @@ h2{
 }
 
 .subscribe {
-    padding-top: 100px;
     background: #212f4f;
     text-align: center;
-	padding-bottom: 300px;
+    padding-bottom: 300px;
+    padding-top: 200px;
 }
 
 
@@ -743,4 +794,8 @@ h2{
 
 .total-invested{
 	height: 900px;
+}
+
+.team-image img{
+	width: 100%;
 }
