@@ -196,6 +196,39 @@ a {
 /* Platform styles*/
 
 
+/*Tokens style */
+.demand-tokens{
+	position: relative;
+    margin-top: -150px;
+}
+
+.demand-row{
+    padding-bottom: 140px;
+}
+
+.tokens-bg{
+	position: absolute;
+    top: -350px;
+    z-index: 2;
+    right: 0;
+    height: 700px;
+}
+
+
+/*Tokens style */
+
+
+/*Documents style */
+
+.documents-bg{
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+/*Documents style */
+
 .total-invested{
 	position: relative;
 }
@@ -237,7 +270,7 @@ a {
 	width: 100%;
 }
 
-.advantages-bg,.documents-bg{
+.advantages-bg{
 	position: absolute;
 	top: -100px;
 	z-index: 1;
@@ -300,8 +333,7 @@ ul li{
 
 .inner-tokens{
 	position: relative;
-	z-index: 2;
-	background: #212f4f;
+	z-index: 3;
 }
 
 .inner-tokens .image{
@@ -313,7 +345,8 @@ ul li{
 
 .graph-image{
 	text-align: center;
-	padding-top: 100px;
+	background: #212F4F;
+	padding-bottom: 250px;
 }
 
 .documents{
@@ -605,6 +638,7 @@ ul li{
 .advantages-users-content{
 	margin-top: 32px;
 	padding: 0 30px 0 45%;
+	    padding-top: 700px;
 }
 /* advantages investors section end */
 
