@@ -531,6 +531,7 @@ ul li{
 
 .our-mission-title{
 	font-size: 50px;
+	font-weight: bold;
 	text-align: center;
 	display: table;
 	white-space: nowrap;
@@ -565,7 +566,7 @@ ul li{
 	float: right;
 }
 .mission-list li {
-	padding: 5px;
+	padding: 10px;
 	font-size: 23px;
 	color: #FBFBFB ;
 }
@@ -578,6 +579,10 @@ ul li{
 /* our mission end */
 
 /* advantages investors section */
+.advantages{
+	padding: 140px 0 0 0;
+}
+
 .wrapper-advantages-investors{
 	padding: 0 60px;
 }
@@ -588,6 +593,8 @@ ul li{
 	color: #212F4F;
 	text-align: left;
 	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 40px;
 }
 .advantages-investors-title:after {
 	border-top: 3px solid #212F4F;
@@ -605,7 +612,8 @@ ul li{
 }
 
 .advantages-investors-content ul li{
-	font-size: 20px;
+	padding: 10px;
+	font-size: 23px;
 	/*list-style-image: url('');*/
 }
 /* advantages investors section end */
@@ -622,11 +630,13 @@ ul li{
 }
 
 .advantages-users-title{
+	margin: 40px 0;
 	display: table;
 	white-space: nowrap;
 	color: #FBFBFB;
 	text-align: right;
 	font-size: 30px;
+	font-weight: bold;
 }
 .advantages-users-title:before {
 	border-top: 3px solid #FBFBFB;
@@ -640,7 +650,12 @@ ul li{
 
 .advantages-users-content{
 	margin-top: 32px;
-	padding: 0 30px 0 45%;
+	padding: 0 0 0 45%;
+}
+
+.advantages-users-content ul li{
+	padding: 10px;
+	font-size: 23px;
 }
 /* advantages investors section end */
 
