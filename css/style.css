@@ -384,6 +384,12 @@ ul li{
 /*------------------------------------------------------------------
   	[Accordion]
 ------------------------------------------------------------------*/
+.panel-title span {
+	color: #FE8C1A;
+	border-bottom: 1px solid #FE8C1A;
+	display: inline-block;
+	padding-bottom: 3px;
+}
 .accordion .panel-default {
 	border: none;
 	margin-left: 50px;
@@ -425,7 +431,6 @@ ul li{
 	font-weight: 300;
 	text-align: center;
 	color: #FE8C1A;
-	text-decoration: underline;
 }
 
 .accordion .panel-group .panel + .panel {
@@ -440,6 +445,7 @@ ul li{
 	padding: 0 30px 30px 30px;
 	margin-top: -1px;
 	line-height: 26px;
+	text-align: center;
 }
 
 .accordion [aria-expanded="true"],
@@ -460,7 +466,7 @@ ul li{
 	color: #FBFBFB ;
 }
 .inner-platform .row {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .inner-platform .image {
 	margin-top: 5%;
