@@ -879,3 +879,77 @@ h2{
 .team-image img{
 	width: 100%;
 }
+
+.menu{
+	position: absolute;
+	width: 100%;
+	right: 0;
+	background: #172239;
+}
+
+.menu ul li{
+	display: inline-block;
+    padding: 60px 30px;
+	color: white;
+}
+
+.menu ul{
+	display: flex;
+}
+
+.header-ico:hover{
+	cursor: pointer;
+}
+
+.hiden{
+	display: none;
+}
+
+.graph-image img{
+	width: 100%;
+}
+
+.header-ico{
+	width: 50px;
+	height: 30px;
+}
+
+.ico-bg{
+	width: 250px;
+    height: 150px;
+    position: absolute;
+}
+
+.ico-one{
+	margin: 50px 30px;
+	width: 50px;
+    height: 35px;
+}
+
+.ico-two{
+	margin: 50px 30px;
+	width: 50px;
+    height: 35px;
+}
+
+.hider{
+	display: none;
+}
+
+.menu li:first-child{
+	padding-left: 50px;
+}
+
+.menu li.item-six{
+	padding-left: 50px;
+    border-left: 2px solid #FE8C1A;
+}
+
+.menu li.item-five{
+	padding-right: 50px;
+}
+
+
+.menu li.item-six,.menu li.item-seven,.menu li.item-eight{
+	color: #FE8C1A;
+}
