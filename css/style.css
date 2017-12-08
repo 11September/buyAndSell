@@ -189,6 +189,12 @@ a {
 	width: 100%;
 }
 
+.inner-platform.two{
+	padding-top: 220px;
+}
+
+/* Platform styles*/
+
 
 .total-invested{
 	position: relative;
