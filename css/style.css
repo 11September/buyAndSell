@@ -588,3 +588,11 @@ h2{
 	padding-bottom: 400px;
 	text-align: center;
 }
+
+.intro{
+	height: 100vh;
+}
+
+.total-invested{
+	height: 900px;
+}
