@@ -561,14 +561,20 @@ ul li{
 
 .mission-list {
 	margin-top: 20px;
+	margin-right: 40px;
 	font-size: 23px;
 	width: 620px;
 	float: right;
+}
+.mission-list ul {
+	width: 620px;
+	margin-right: 50px;
 }
 .mission-list li {
 	padding: 10px;
 	font-size: 23px;
 	color: #FBFBFB ;
+	line-height: 30px;
 }
 .inner-platform .row {
 	margin-top: 50px;
@@ -610,7 +616,10 @@ ul li{
 	margin-top: 32px;
 	padding: 0 20% 0 30px;
 }
-
+.advantages-investors-content ul {
+	width: 1036px;
+	line-height: 30px;
+}
 .advantages-investors-content ul li{
 	padding: 10px;
 	font-size: 23px;
@@ -650,9 +659,11 @@ ul li{
 
 .advantages-users-content{
 	margin-top: 32px;
-	padding: 0 0 0 45%;
+	padding: 0px 0 0 35%;
 }
-
+.advantages-users-content ul{
+	width: 972px;
+}
 .advantages-users-content ul li{
 	padding: 10px;
 	font-size: 23px;
