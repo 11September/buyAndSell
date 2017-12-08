@@ -519,11 +519,47 @@ ul li{
 /* buy and sell platform end */
 
 /* our mission */
+.blue{
+	color: #212F4F;
+}
+
+.our-mission-title{
+	font-size: 50px;
+	text-align: center;
+	display: table;
+	white-space: nowrap;
+	color: #FBFBFB;
+	margin: 80px auto;
+	letter-spacing: 10px;
+}
+.our-mission-title:before {
+	border-top: 3px solid #212F4F;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: -20px;
+}
+.our-mission-title:after {
+	border-top: 3px solid #FBFBFB;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: 20px;
+}
+
+
 .mission-list {
+	margin-top: 20px;
+	font-size: 23px;
 	width: 620px;
 	float: right;
 }
 .mission-list li {
+	padding: 5px;
 	font-size: 23px;
 	color: #FBFBFB ;
 }
