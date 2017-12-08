@@ -52,6 +52,14 @@ table {
 a {
   text-decoration: none; }
 
+.no-pad{
+	padding: 0!important;
+}
+
+.no-marg{
+	margin: 0!important;
+}
+
 /* Basic styles*/
 
 /* Header styles*/
@@ -66,6 +74,7 @@ a {
 .header{
 	width: 100%;
 	position: fixed;
+	z-index: 3;
 }
 
 
@@ -76,14 +85,15 @@ a {
 
 .intro{
 	position: relative;
-	padding-bottom: 40vh;
-	padding-top: 250px;
 }
 
 .inner-intro{
 	position: relative;
 	z-index: 2;
-	text-align: center;
+	text-align: left;
+	padding-top: 250px;
+	width: 48%;
+	margin: 0 auto;
 }
 
 .intro-bg{
@@ -95,9 +105,96 @@ a {
 
 .intro-header{
 	font-size: 70px;
+	margin-bottom: 40px;
 }
 
+.intro-sub-header{
+	margin-left: 20px;
+	color: #FE8C1A;
+	font-weight: 300;
+	font-size: 40px;
+}
+
+.intro .countdown-center{
+	margin-left: 30px;
+	margin-top: 40px;
+
+}
+
+.intro .countdown-block-main,.intro .countdown-sep{
+	font-size: 102px;
+	font-weight: 300;
+}
+
+.intro .countdown-span{
+	font-size: 18px;
+	color: #FE8C1A;
+	margin-top: 20px;
+}
+
+.intro .countdown-sep{
+	font-size: 102px;
+	font-weight: 300;
+	margin-right: 44px;
+	margin-left: 62px;
+	color: #FE8C1A;
+}
+
+.buy-tokens{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 60px;
+
+	background: #FBFBFB;
+	background-image: -webkit-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -moz-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -ms-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: -o-linear-gradient(top, #FBFBFB, #E1E1E1);
+	background-image: linear-gradient(to bottom, #FBFBFB, #E1E1E1);
+
+	color: #C80A0A;
+	border-radius: 28px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 23px;
+}
+
+.buy-tokens:hover {
+	color: #FBFBFB;
+	background: #C80A0A;
+	background-image: -webkit-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -moz-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -ms-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: -o-linear-gradient(top, #E16060 , #C80A0A);
+	background-image: linear-gradient(to bottom, #E16060 , #C80A0A);
+	text-decoration: none;
+}
+
+
+
+
+
 /* Intro styles*/
+
+
+/* Platform styles*/
+
+.inner-platform .image{
+	text-align: right;
+}
+
+.inner-platform .image img{
+	width: 100%;
+}
+
+.inner-platform.two{
+	padding-top: 220px;
+}
+
+/* Platform styles*/
+
 
 .total-invested{
 	position: relative;
@@ -130,13 +227,13 @@ a {
 	position: relative;
 	margin-top: 100px;
 	padding-top: 150px;
-	    height: 1500px;
+    height: 2170px;
 }
 
 .platform-bg{
 	position: absolute;
-	top: -200px;
-	z-index: 1;
+    top: -330px;
+    z-index: 2;
 	width: 100%;
 }
 
@@ -154,7 +251,7 @@ a {
 
 .inner-platform{
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 
 }
 
@@ -263,37 +360,7 @@ ul li{
 .countdown-block-main{width: 80px;height: 80px;text-align: center; font-size: 50px; line-height: 80px;color: white;background-size: contain;}
 .countdown-block span{display: block;text-align: right;font-size: 14px;color: #fff;margin-top: 3px;}
 
-.buy-tokens{
-	width: 600px;
-	margin: 0 auto;
-	margin-top: 60px;
 
-	background: #FBFBFB;
-	background-image: -webkit-linear-gradient(top, #FBFBFB, #E1E1E1);
-	background-image: -moz-linear-gradient(top, #FBFBFB, #E1E1E1);
-	background-image: -ms-linear-gradient(top, #FBFBFB, #E1E1E1);
-	background-image: -o-linear-gradient(top, #FBFBFB, #E1E1E1);
-	background-image: linear-gradient(to bottom, #FBFBFB, #E1E1E1);
-
-	color: #C80A0A;
-	border-radius: 28px;
-	padding: 15px 0;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	font-size: 16px;
-}
-
-.buy-tokens:hover {
-	color: #FBFBFB;
-	background: #C80A0A;
-	background-image: -webkit-linear-gradient(top, #E16060 , #C80A0A);
-	background-image: -moz-linear-gradient(top, #E16060 , #C80A0A);
-	background-image: -ms-linear-gradient(top, #E16060 , #C80A0A);
-	background-image: -o-linear-gradient(top, #E16060 , #C80A0A);
-	background-image: linear-gradient(to bottom, #E16060 , #C80A0A);
-	text-decoration: none;
-}
 /* intro section */
 
 /* total invested */
@@ -374,6 +441,7 @@ ul li{
 .invested-bg{
 	position: absolute;
 	top: -200px;
+	left: 0;
 	z-index: 1;
 	width: 100%;
 }
@@ -457,11 +525,48 @@ ul li{
 /* buy and sell platform end */
 
 /* our mission */
+.blue{
+	color: #212F4F;
+}
+
+.our-mission-title{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	display: table;
+	white-space: nowrap;
+	color: #FBFBFB;
+	margin: 80px auto;
+	letter-spacing: 10px;
+}
+.our-mission-title:before {
+	border-top: 3px solid #212F4F;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: -20px;
+}
+.our-mission-title:after {
+	border-top: 3px solid #FBFBFB;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: 20px;
+}
+
+
 .mission-list {
+	margin-top: 20px;
+	font-size: 23px;
 	width: 620px;
 	float: right;
 }
 .mission-list li {
+	padding: 10px;
 	font-size: 23px;
 	color: #FBFBFB ;
 }
@@ -474,6 +579,10 @@ ul li{
 /* our mission end */
 
 /* advantages investors section */
+.advantages{
+	padding: 140px 0 0 0;
+}
+
 .wrapper-advantages-investors{
 	padding: 0 60px;
 }
@@ -484,6 +593,8 @@ ul li{
 	color: #212F4F;
 	text-align: left;
 	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 40px;
 }
 .advantages-investors-title:after {
 	border-top: 3px solid #212F4F;
@@ -501,7 +612,8 @@ ul li{
 }
 
 .advantages-investors-content ul li{
-	font-size: 20px;
+	padding: 10px;
+	font-size: 23px;
 	/*list-style-image: url('');*/
 }
 /* advantages investors section end */
@@ -518,11 +630,13 @@ ul li{
 }
 
 .advantages-users-title{
+	margin: 40px 0;
 	display: table;
 	white-space: nowrap;
 	color: #FBFBFB;
 	text-align: right;
 	font-size: 30px;
+	font-weight: bold;
 }
 .advantages-users-title:before {
 	border-top: 3px solid #FBFBFB;
@@ -536,7 +650,12 @@ ul li{
 
 .advantages-users-content{
 	margin-top: 32px;
-	padding: 0 30px 0 45%;
+	padding: 0 0 0 45%;
+}
+
+.advantages-users-content ul li{
+	padding: 10px;
+	font-size: 23px;
 }
 /* advantages investors section end */
 
