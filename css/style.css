@@ -186,7 +186,7 @@ a {
 }
 
 .inner-platform .image img{
-	width: 100%;
+	width: 90%;
 }
 
 .inner-platform.two{
@@ -195,6 +195,39 @@ a {
 
 /* Platform styles*/
 
+
+/*Tokens style */
+.demand-tokens{
+	position: relative;
+    margin-top: -150px;
+}
+
+.demand-row{
+    padding-bottom: 140px;
+}
+
+.tokens-bg{
+	position: absolute;
+    top: -350px;
+    z-index: 2;
+    right: 0;
+    height: 700px;
+}
+
+
+/*Tokens style */
+
+
+/*Documents style */
+
+.documents-bg{
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+/*Documents style */
 
 .total-invested{
 	position: relative;
@@ -237,7 +270,7 @@ a {
 	width: 100%;
 }
 
-.advantages-bg,.documents-bg{
+.advantages-bg{
 	position: absolute;
 	top: -100px;
 	z-index: 1;
@@ -300,8 +333,7 @@ ul li{
 
 .inner-tokens{
 	position: relative;
-	z-index: 2;
-	background: #212f4f;
+	z-index: 3;
 }
 
 .inner-tokens .image{
@@ -313,7 +345,8 @@ ul li{
 
 .graph-image{
 	text-align: center;
-	padding-top: 100px;
+	background: #212F4F;
+	padding-bottom: 250px;
 }
 
 .documents{
@@ -325,18 +358,69 @@ ul li{
 .documents-bg{
 	background: #212f4f;
 }
-
+/*paper-block start*/
 .paper-block{
-	padding: 20px;
-	height: 300px;
+	height: 700px;
+	width: 700px;
 	background: white;
 	color: #212f4f;
-	width: 50%;
-	margin : 0 auto;
+	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 500px;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
 }
-
+.paper-block .image {
+	padding: 40px 0 30px;
+}
+.paper-block .white-papper{
+	font-size: 55px;
+	font-weight: 400;
+	color: #212F4F;
+	text-transform: uppercase;
+	padding-bottom: 100px;
+}
+.paper-block .download-t{
+	font-size: 35px;
+	font-weight: 300;
+	color: #212F4F;
+	padding-bottom: 30px;
+}
+.paper-block span{
+	font-size: 25px;
+	font-weight: 500;
+	color: #C80A0A;
+}
+.paper-block .download{
+	display: flex;
+	justify-content: center;
+}
+.paper-block .download-eng{
+	border-right: 1px solid #212F4F;
+	padding-right: 90px;
+	margin-right: 90px;
+	display: flex;
+	align-items:center;
+}
+.paper-block .download-rus{
+	display: flex;
+	align-items:center;
+}
+.paper-block img{
+	padding-right: 10px;
+}
+.paper-block p{
+	font-size: 18px;
+	font-weight: 300;
+	color: #212F4F;;
+}
+.paper-block .copyright{
+	padding: 0 15px 25px;
+	position: absolute;
+	bottom: 0;
+}
+/*paper-block end*/
 .inner-documents image{
 	background: #212f4f;
 	text-align: center;
@@ -461,7 +545,7 @@ ul li{
 .accordion .panel-default {
 	border: none;
 	margin-left: 50px;
-	margin-top: 170px;
+	margin-top: 0;
 }
 
 .accordion .panel-heading {
@@ -577,7 +661,8 @@ ul li{
 	line-height: 30px;
 }
 .inner-platform .row {
-	margin-top: 50px;
+	display: flex;
+	align-items: center;
 }
 .inner-platform .image {
 	margin-top: 5%;
@@ -669,7 +754,25 @@ ul li{
 	font-size: 23px;
 }
 /* advantages investors section end */
-
+/* create demand tokens start*/
+ .demand-tokens-box {
+	 padding: 0 50px;
+ }
+.demand-tokens-box .image {
+	height: 300px;
+	padding: 35px 0;
+}
+.demand-tokens-box img{
+	height: 150px;
+	width: 150px;
+}
+.demand-tokens-box p {
+	font-size: 23px;
+	font-weight: 600;
+	padding: 20px 35px 0;
+	color: #172239;
+}
+/* create demand tokens end*/
 .subscribe-field input{
 	width: 100%;
 	color: #1A2435;
@@ -720,10 +823,10 @@ h2{
 }
 
 .subscribe {
-    padding-top: 100px;
     background: #212f4f;
     text-align: center;
-	padding-bottom: 300px;
+    padding-bottom: 300px;
+    padding-top: 200px;
 }
 
 
@@ -771,4 +874,8 @@ h2{
 
 .total-invested{
 	height: 900px;
+}
+
+.team-image img{
+	width: 100%;
 }
