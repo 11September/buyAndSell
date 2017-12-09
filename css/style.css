@@ -23,7 +23,11 @@ time, mark, audio, video {
     font: inherit;
     color: white;
     vertical-align: baseline;
-    font-family: "Roboto"
+    font-family: "Roboto";
+}
+
+textarea:focus, input:focus, button{
+    outline: none;
 }
 
 /* HTML5 display-role reset for older browsers */
