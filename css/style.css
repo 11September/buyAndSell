@@ -369,9 +369,38 @@ a {
 }
 
 .platform-title {
+    width: 900px;
+    margin: 40px auto 50px auto;
+    font-size: 50px;
+    font-weight: bold;
     text-align: center;
-    color: #0D121D;
+    display: table;
+    white-space: nowrap;
+    color: #212F4F;
+    letter-spacing: 10px;
 }
+
+.platform-title:before {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: -20px;
+}
+
+.platform-title:after {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: 20px;
+}
+
+
 
 .acordeon-platform {
     padding-top: 100px;
@@ -1170,8 +1199,8 @@ h2 {
 
 .ico-one {
     margin: 50px 30px;
-    width: 50px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
 
 .ico-two {
