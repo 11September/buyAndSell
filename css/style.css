@@ -233,6 +233,36 @@ a {
 	position: relative;
 }
 
+.documetns-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    display: table;
+    white-space: nowrap;
+    color: #212F4F;
+    margin: 80px 0;
+    letter-spacing: 10px;
+}
+
+.documetns-title:before {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: -20px;
+}
+.documetns-title:after {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: 20px;
+}
+
 .invested-item{
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -366,7 +396,7 @@ ul li{
 	color: #212f4f;
 	margin: 0 auto;
 	text-align: center;
-	margin-bottom: 500px;
+    margin-bottom: 400px;
 	position: relative;
 	border-radius: 15px;
 	box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
