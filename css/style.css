@@ -234,13 +234,14 @@ a {
 }
 
 .documetns-title{
+	width:700px;
+	margin: 100px auto;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     display: table;
     white-space: nowrap;
     color: #212F4F;
-    margin: 80px 0;
     letter-spacing: 10px;
 }
 
@@ -843,7 +844,7 @@ ul li{
 	background: #212f4f;
 }
 
-.subscribe h2{
+.subscribe-title{
 	font-size: 50px;
 	font-weight: bold;
 	text-align: center;
@@ -854,7 +855,7 @@ ul li{
 	letter-spacing: 10px;
 }
 
-.subscribe h2:before {
+.subscribe-title:before {
 	border-top: 3px solid #FBFBFB;
 	content: '';
 	display: table-cell;
@@ -863,7 +864,7 @@ ul li{
 	width: 200px;
 	left: -20px;
 }
-.subscribe h2:after {
+.subscribe-title:after {
 	border-top: 3px solid #FBFBFB;
 	content: '';
 	display: table-cell;
