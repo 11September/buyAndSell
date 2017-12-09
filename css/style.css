@@ -579,8 +579,8 @@ ul li{
 
 .accordion .panel-title-child:active,
 .accordion .panel-title-child:link{
-	font-size: 20px;
-	font-weight: 300;
+	font-size: 23px;
+	font-weight: 400;
 	text-align: center;
 	color: #FE8C1A;
 }
@@ -808,13 +808,18 @@ h2{
 }
 
 .our-team h2{
+	font-size: 50px;
+	font-weight: 600;
 	text-align: center;
 }
 
 .our-team h4{
-    font-size:  22px;
-    color: #1a2435;
-    text-align: center;
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #1a2435;
+	text-align: center;
+	padding: 20px 120px 40px;
 }
 
 .subscribe h4{
@@ -849,6 +854,9 @@ h2{
 .advisors h2{
 	color: white;
 	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	padding-bottom: 40px;
 }
 
 .road-map{
@@ -875,11 +883,17 @@ h2{
 .total-invested{
 	height: 900px;
 }
-
+/*team start*/
+.team-image {
+	padding: 30px 15px;
+}
+.team-image img:hover {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
 .team-image img{
 	width: 100%;
 }
-
+/*team end*/
 .menu{
 	position: absolute;
 	width: 100%;
