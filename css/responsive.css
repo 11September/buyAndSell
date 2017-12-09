@@ -1,0 +1,48 @@
+@media (max-width: 1366px){
+	.menu ul li {
+	    display: inline-block;
+	    padding: 60px 15px;
+	    color: white;
+	    font-size: 24px;
+	}
+}
+
+@media (max-width: 1200px){
+	.menu ul li {
+	    display: inline-block;
+	    padding: 60px 10px;
+	    color: white;
+	    font-size: 20px;
+	}
+}
+
+@media (max-width: 991px){
+	.menu ul li {
+	    display: inline-block;
+    	padding: 40px 10px;
+	    color: white;
+	    font-size: 24px;
+	}
+
+	.menu ul {
+    	flex-direction: column;
+    	text-align: center;
+	}
+
+	.menu li:first-child {
+    	padding-left: 0;
+	}
+
+	.menu li.item-five,
+	.menu li.item-six,
+	.menu li.item-seven,
+	.menu li.item-eight
+	 {
+    	padding-right: 0;
+    	padding-left: 0;
+	}
+
+	.menu{
+		height: 100vh;
+	}
+}

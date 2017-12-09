@@ -100,11 +100,13 @@ a {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
+	height: 100vh;
 	top: 0;
 }
 
 .intro-header{
 	font-size: 70px;
+	white-space: nowrap;
 	margin-bottom: 40px;
 }
 
@@ -135,8 +137,8 @@ a {
 .intro .countdown-sep{
 	font-size: 102px;
 	font-weight: 300;
-	margin-right: 44px;
-	margin-left: 62px;
+	margin-right: 60px;
+	margin-left: 60px;
 	color: #FE8C1A;
 }
 
@@ -228,6 +230,51 @@ a {
 }
 
 /*Documents style */
+
+
+.token-bg{
+	position: absolute;
+    top: -200px;
+	z-index: 1;
+	width: 100%;
+	background: #212f4f;
+}
+
+.token-trader{
+	position: relative;
+	height: 1741px;
+}
+
+.ico-structure{
+	position: relative;
+	background: #1a2435;
+	height: 1700px;
+}
+
+.monetization{
+	position: relative;
+}
+
+.monetization-bg{
+	position: absolute;
+    top: -200px;
+	z-index: 1;
+	width: 100%;
+	background: #212F4F;
+}
+
+.monetization .subscribe {
+    background: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+.ico-structure-bg{
+	position: absolute;
+    top: -200px;
+	z-index: 1;
+	width: 100%;
+}
 
 .total-invested{
 	position: relative;
@@ -889,7 +936,7 @@ h2{
 
 .menu ul li{
 	display: inline-block;
-    padding: 60px 30px;
+    padding: 60px 25px;
 	color: white;
 }
 
