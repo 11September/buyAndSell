@@ -388,13 +388,17 @@ ul li{
 	padding-bottom: 30px;
 }
 .paper-block span{
-	font-size: 25px;
+	font-size: 27px;
 	font-weight: 500;
 	color: #C80A0A;
+	padding-bottom: 0;
 }
 .paper-block .download{
 	display: flex;
 	justify-content: center;
+}
+.download a:hover{
+	text-decoration: none;
 }
 .paper-block .download-eng{
 	border-right: 1px solid #212F4F;
@@ -421,6 +425,10 @@ ul li{
 	bottom: 0;
 }
 /*paper-block end*/
+#documents{
+	padding: 0 40px;
+}
+
 .inner-documents image{
 	background: #212f4f;
 	text-align: center;
@@ -429,7 +437,16 @@ ul li{
 .inner-documents .item-body{
 	text-align: center;
 	background: #212f4f;
-	height: 300px;
+	height: 360px;
+	padding: 60px 65px 80px 65px;
+	border: 1px solid #95989A;
+}
+
+.inner-documents .item-body h4{
+	height:60px;
+	font-size: 29px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
 }
 
 /* intro section */
@@ -777,24 +794,65 @@ ul li{
 	width: 100%;
 	color: #1A2435;
 	display: inline-block;
-	padding: 20px;
-	border-radius: 10px;
+	padding: 30px;
+	border-radius: 40px;
 }
 
-.subscribe-field a span{
+.subscribe-button{
 	width: 100%;
 	display: inline-block;
-	padding: 20px;
+	padding: 30px;
 	background: #1A2435;
 	color: #FE8C1A;
 	border: 2px solid #FE8C1A;
-	border-radius: 10px;
+	border-radius: 40px;
 	text-align: center;
 }
 
 .subscribe{
 	background: #212f4f;
 }
+
+.subscribe h2{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	display: table;
+	white-space: nowrap;
+	color: #FBFBFB;
+	margin: 40px auto;
+	letter-spacing: 10px;
+}
+
+.subscribe h2:before {
+	border-top: 3px solid #FBFBFB;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: -20px;
+}
+.subscribe h2:after {
+	border-top: 3px solid #FBFBFB;
+	content: '';
+	display: table-cell;
+	position: relative;
+	top: 0.5em;
+	width: 200px;
+	left: 20px;
+}
+
+.subscribe h4{
+	font-size: 23px;
+	color: #FFFFFF;
+	line-height: 34px;
+}
+
+.inner-subscribe{
+	margin-top: 100px;
+}
+
 
 h2{
     white-space: nowrap;
@@ -817,16 +875,13 @@ h2{
     text-align: center;
 }
 
-.subscribe h4{
-    font-size:  22px;
-	text-align: center;
-}
-
 .subscribe {
     background: #212f4f;
     text-align: center;
     padding-bottom: 300px;
-    padding-top: 200px;
+    padding-top: 260px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 
