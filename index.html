@@ -7,7 +7,8 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link type="text/css" href="css/jquery.countdown.css?v=1.0.0.0" rel="stylesheet">
+<!--     <link type="text/css" href="css/jquery.countdown.css?v=1.0.0.0" rel="stylesheet"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="all-main-page">
@@ -50,7 +51,6 @@
         </section>
 
         <section class="total-invested">
-            <h2>TOTAL INVESTED</h2>
             <div class="inner-invested">
                 <div class="invested-item">
                     <img src="images/bitcoin.png" alt="">
@@ -69,7 +69,7 @@
                 <div class="invested-item">
                     <img src="images/etherium.png" alt="">
                     <div class="invested-item-in">
-                        <span class="invested-item-name-3">Ehterium</span>
+                        <span class="invested-item-name">Ehterium</span>
                         <span class="invested-item-value">0.2899</span>
                     </div>
                 </div>
@@ -81,22 +81,22 @@
                     <img src="images/monero.png" alt="">
                 </div>
                 <div class="switch-btn">
-                    <div class="btn">
-                        <span class="soft">SOFT CAP</span>
+                    <div class="inner-switch">
+                        <div class="btn">
+                            <span class="soft">SOFT CAP</span>
+                        </div>
+                        <span class="hard">HARD CAP</span>
                     </div>
-                    <span class="hard">HARD CAP</span>
                 </div>
             </div>
             <img class="invested-bg" src="images/invested.png" alt="">
         </section>
-
+<!--
         <section class="platform">
             <div class="inner-platform">
                 <h2 class="platform-title">BUY&SELL PLATFORM</h2>
                 <div class="row no-marg">
                     <div class="col-lg-6 no-pad">
-
-                        <!-- Accordion -->
                         <div class="accordion">
                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 <div class="panel panel-default">
@@ -576,6 +576,7 @@
             </div>
             <img class="footer-bg" src="images/foorter-bg.png" alt="">
         </section>
+-->
     </div>
 
 
@@ -592,7 +593,7 @@
 
 <script type="text/javascript">
     $(window).load(function () {
-        $('.countdown-center').countdown('2017/12/11 01:30:00 UTC+9', function (event) {
+        $('.countdown-center').countdown('2011/12/11 01:30:00 UTC+9', function (event) {
             $(this).html(event.strftime('<div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-days">%D</h4></div><span class="countdown-span">days</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-hours">%H</h4></div><span class="countdown-span">hours</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-minutes">%M</h4></div><span class="countdown-span">minutes</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-seconds">%S</h4></div><span class="countdown-span">seconds</span></div><div class="clear"></div>'));
         });
     });

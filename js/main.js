@@ -5,6 +5,7 @@ $(document).ready(function() {
         $(".menu").removeClass('hiden');
         $(".mobi-icons .ico-one").toggleClass('hider');
  		$(".mobi-icons .ico-two").toggleClass('hider');
+ 		$(".mobi-icons .ico-bg").toggleClass('fone-hide');
     });
 
 });

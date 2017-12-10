@@ -1,9 +1,36 @@
+
+@media (max-width: 1600px){
+	.intro .countdown-sep {
+	    margin-right: 35px;
+	    margin-left: 50px;
+	}
+
+	.invested-bg {
+	    position: absolute;
+		top: -180px;
+	    z-index: 1;
+	    width: 100%;
+	}
+}
+
 @media (max-width: 1366px){
 	.menu ul li {
 	    display: inline-block;
 	    padding: 60px 15px;
 	    color: white;
 	    font-size: 24px;
+	}
+
+	.intro .countdown-sep {
+	    font-size: 102px;
+	    font-weight: 300;
+	    margin-right: 20px;
+	    margin-left: 40px;
+	    color: #FE8C1A;
+	}
+
+	.intro-header {
+	    font-size: 60px;
 	}
 }
 
@@ -13,6 +40,50 @@
 	    padding: 60px 10px;
 	    color: white;
 	    font-size: 20px;
+	}
+
+	.countdown-block span {
+	    text-align: center;
+	}
+
+	.intro .countdown-block-main, .intro .countdown-sep {
+	    font-size: 90px;
+	}
+
+	.intro .countdown-sep {
+	    margin-right: 10px;
+	    margin-left: 20px;
+	}
+
+	.intro-header {
+	    font-size: 60px;
+	}
+
+	.inner-intro {
+	    text-align: center;
+	}
+
+	.intro-header{
+		white-space: normal;
+		font-size: 55px;
+		line-height: 70px;
+	}
+
+	.inner-intro {
+	    width: 50%;
+	}
+
+	.intro .countdown-center {
+	    margin-left: 0px;
+	    margin-top: 40px;
+	}
+
+	.invested-bg {
+		top: -80px;
+	}
+
+	.intro-bg {
+	    height: 820px;
 	}
 }
 
@@ -45,4 +116,163 @@
 	.menu{
 		height: 100vh;
 	}
+
+	.inner-intro {
+	    width: 60%;
+	}
+
+	.invested-bg {
+		top: -70px;
+	}
+
+	.invested-item-value-2,
+	.invested-item-name-2,
+	.invested-item-name,
+	.invested-item-value{
+	    font-size: 30px;
+	    padding-right: 20px;
+	}
+
+	.invested-bg {
+	    height: 130%;
+	}
+}
+
+@media (max-width: 800px){
+	.inner-intro {
+	    width: 80%;
+	}
+
+	.invested-item-name {
+	    padding-left: 20px;
+	    font-size: 30px;
+	}
+
+	.invested-item-value {
+	    font-size: 30px;
+	}
+
+	.invested-item-in,.invested-item-in-2 {
+	    justify-content: center;
+	}
+
+	.total-invested .invested-item:nth-child(odd){
+	    margin-left: 10%;
+	}
+
+	.total-invested .invested-item-2:nth-child(even){
+	    margin-right: 10%;
+	}
+
+	.invested-item-value-2, .invested-item-name-2, .invested-item-name, .invested-item-value {
+    	padding-right: 20px;
+	    padding-left: 0px;
+	}
+
+	.invested-item img {
+	    padding-left: 20px;
+	}
+
+	.invested-item,.invested-item-2{
+	    height: 80px;
+	}
+
+	.invested-bg {
+	    height: 110%;
+	}
+
+	.switch-btn {
+	    width: 80%;
+	}
+}
+
+
+@media (max-width: 600px){
+	.intro-bg {
+	    height: 800px;
+	}
+
+	.intro .countdown-block-main, .intro .countdown-sep {
+	    font-size: 40px;
+	}
+
+	.intro .countdown-sep {
+	    margin-right: 0;
+	    margin-left: 0;
+	}
+
+	.inner-intro {
+	    width: 90%;
+	}
+
+
+
+}
+
+@media (max-width: 480px){
+
+	.inner-intro {
+	    width: 90%;
+	}
+
+	.countdown-block{
+		width: 50px;
+	}
+
+	.countdown-block .countdown-block-main{
+		width: 50px;
+	}
+
+	.intro-header {
+	    font-size: 40px;
+	}
+
+	.intro-sub-header {
+	    font-size: 30px;
+	}
+
+	.intro .countdown-span {
+	    font-size: 16px;
+	    color: #FE8C1A;
+	    margin-top: 0px;
+	}
+
+	.buy-tokens{
+		font-size: 20px;
+	}
+
+	.fone-hide{
+		display: none;
+	}
+
+	.total-invested .invested-item:nth-child(odd) {
+	    margin-left: 0%;
+	}
+
+	.total-invested .invested-item:nth-child(even) {
+	    margin-right: 0%;
+	}
+
+	.invested-item img,.invested-item-2 img {
+	    width: 120px;
+	}
+
+	.invested-item-value-2, .invested-item-name-2, .invested-item-name, .invested-item-value {
+    	font-size: 20px;
+    	padding-right: 10px;
+	}
+
+	.switch-btn {
+	    width: 90%;
+	}
+
+	.switch-btn .btn {
+	    width: 120px;
+	    font-size: 20px;
+	}
+
+	.switch-btn .hard {
+	    padding: 15px 20px;
+	}
+
 }
