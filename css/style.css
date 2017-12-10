@@ -1147,8 +1147,8 @@ h2 {
 .subscribe {
     background: #212f4f;
     text-align: center;
-    padding-bottom: 300px;
-    padding-top: 260px;
+    /*padding-bottom: 300px;*/
+    padding-top: 150px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -1383,6 +1383,7 @@ h2 {
 
 .monetization .row {
     padding: 0 100px;
+    width:inherit;
 }
 
 .monetization-title {
@@ -1460,7 +1461,7 @@ h2 {
 
 /* advantages list */
 .wrapper-advantages-investors-second-page{
-    padding: 300px 0;
+    padding: 300px 0 0 0;
 }
 
 .advantages-users-title{
