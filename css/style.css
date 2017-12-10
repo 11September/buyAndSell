@@ -766,12 +766,12 @@ ul li {
 }
 
 .switch-btn .btn {
-	height: 51px;
+    height: 46px;
     width: 190px;
     background: linear-gradient(to left, #212F4F, #0D121D);
     border-radius: 25px;
     float: left;
-    margin: 0px;
+    margin: 2px;
 }
 
 .switch-btn .soft {
@@ -787,7 +787,7 @@ ul li {
     float: right;
     font-size: 20px;
     font-weight: 600;
-    padding: 15px 40px;
+    padding: 16px 40px;
     color: #0D121D;
 }
 
