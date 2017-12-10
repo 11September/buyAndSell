@@ -1056,7 +1056,7 @@ ul li {
     color: #1A2435;
     display: inline-block;
     padding: 30px;
-    border-radius: 40px;
+    border-radius: 50px;
     font-size: 26px;
 }
 
@@ -1067,7 +1067,7 @@ ul li {
     background: #1A2435;
     color: #FE8C1A;
     border: 2px solid #FE8C1A;
-    border-radius: 40px;
+    border-radius: 50px;
     text-align: center;
     font-size: 26px;
 }
