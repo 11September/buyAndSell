@@ -44,6 +44,10 @@
 	.mission-list ul {
 	    width: auto;
 	}
+
+	.right-block {
+	    margin-top: 250px;
+	}
 }
 
 @media (max-width: 1200px){
@@ -101,6 +105,15 @@
 	.our-mission-title {
 	    padding-left: 0;
 	}
+
+	.mission-list li {
+	    font-size: 20px;
+	}
+
+	.right-block {
+	    margin-top: 150px;
+	}
+
 }
 
 @media (max-width: 991px){
@@ -163,7 +176,7 @@
 	}
 
 	.inner-platform.two {
-	    padding-top: 305px;
+	    padding-top: 200px;
 	}
 
 	.mission-list li {
@@ -176,6 +189,27 @@
 
 	.platform-bg {
 	    top: -520px;
+	}
+
+	.advantages-bg {
+	    top: -240px;
+    	height: 3500px;
+	}
+
+	.advantages-investors-content ul li {
+	    font-size: 20px;
+	}
+
+	.mission-list li {
+	    font-size: 18px;
+	}
+
+	.advantages {
+	    padding: 10px 0 0 0;
+	}
+
+	.right-block {
+	    margin-top: 250px;
 	}
 }
 
@@ -259,6 +293,13 @@
 	.platform-bg {
 	    top: -520px;
 	}
+
+	.advantages-bg {
+	    top: -240px;
+    	height: 4100px;
+	}
+
+
 }
 
 
@@ -293,6 +334,27 @@
 	.platform-bg {
 	    top: -640px;
 	}
+
+	.advantages-investors-title {
+	    display: table;
+	    white-space: nowrap;
+	    color: #212F4F;
+	    text-align: left;
+	    font-size: 25px;
+	    font-weight: bold;
+	    margin-bottom: 40px;
+	    margin-right: 20px;
+	}
+
+	.advantages-investors-content ul li {
+	    font-size: 18px;
+	}
+
+	.wrapper-advantages-investors {
+	    padding: 0px 20px;
+	}
+
+
 
 }
 
@@ -396,6 +458,49 @@
 
 	.platform-bg {
 	    height: 3600px;
+	}
+
+	.platform {
+	    height: 2725px;
+	}
+
+	.advantages-bg {
+	    height: 4760px;
+	}
+
+	.advantages-investors-title{
+		white-space: normal;
+	}
+
+	.advantages-users-content {
+		padding: 0;
+	}
+
+	.advantages-investors-content ul li {
+	    color: white;
+	    text-shadow: 2px 2px 2px black;
+	}
+
+	.advantages-investors-content {
+	    padding: 0 20% 0 40px;
+	}
+
+	.advantages-users-content ul li {
+	    color: white;
+	    text-shadow: 2px 2px 2px black;
+	}
+
+	.wrapper-title-advantages-users {
+	    float: none;
+	}
+
+	.advantages-users-title {
+	    font-size: 20px;
+	    text-shadow: 2px 2px 2px black;
+	}
+
+	.advantages-users-title:before {
+	    left: -10px;
 	}
 
 }
