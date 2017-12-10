@@ -350,7 +350,7 @@ a {
 .advantages-bg {
     position: absolute;
     top: -100px;
-    z-index: 1;
+    z-index: -1;
     width: 100%;
 }
 
@@ -927,7 +927,16 @@ ul li {
     font-size: 23px;
     color: #FBFBFB;
     line-height: 30px;
+    list-style-type: none;
 }
+
+.mission-list li span{
+	display: inline-block;
+	padding-right: 20px;
+	color: #FE8C1A;
+}
+
+
 
 .inner-platform .row {
     display: flex;
@@ -982,8 +991,25 @@ ul li {
 .advantages-investors-content ul li {
     padding: 10px;
     font-size: 23px;
-    /*list-style-image: url('');*/
+    list-style-type: none;
 }
+
+.advantages-investors-content ul li span{
+    display: inline-block;
+    padding-right: 20px;
+    color: #FE8C1A;
+}
+
+.advantages-users-content ul li{
+	list-style-type: none;
+}
+
+.advantages-users-content ul li span{
+    display: inline-block;
+    padding-right: 20px;
+    color: #FE8C1A;
+}
+
 
 /* advantages investors section end */
 
@@ -1333,6 +1359,10 @@ h2 {
  	-o-animation: animatedBackground 10s linear infinite;
 	/* так же, как и с @keyframes, префикс -ms тут ни к чему */
 }
+
+   ul {
+    list-style-image: url(images/book.png); /* Путь к изображению маркера */
+   }
 
 
 
