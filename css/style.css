@@ -366,11 +366,10 @@ a {
 
 .inner-invested, .inner-advantages, .inner-documents, .inner-team, .inner-road {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
-
-.inner-invested{
+.inner-invested {
     padding-top: 80px;
 }
 
@@ -654,18 +653,18 @@ ul li {
     display: flex;
     justify-content: space-between;
 
-    background: rgba(13,18,29,1);
-	background: -moz-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(13,18,29,1)), color-stop(100%, rgba(33,47,79,1)));
-	background: -webkit-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: -o-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: -ms-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: linear-gradient(to right, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d121d', endColorstr='#212f4f', GradientType=1 );
+    background: rgba(13, 18, 29, 1);
+    background: -moz-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(13, 18, 29, 1)), color-stop(100%, rgba(33, 47, 79, 1)));
+    background: -webkit-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: -o-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: linear-gradient(to right, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d121d', endColorstr='#212f4f', GradientType=1);
 
-	-webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .invested-item-2 {
@@ -1261,6 +1260,7 @@ h2 {
     width: 35px;
     height: 35px;
 }
+
 .ico-two {
     margin: 55px 30px;
     width: 35px;
@@ -1440,7 +1440,8 @@ h2 {
     color: #FE8C1A;
     font-size: 36px;
 }
-.steps span{
+
+.steps span {
     color: inherit;
     font-size: 75px;
 }
