@@ -327,7 +327,7 @@ a {
 
 .invested-bg {
     position: absolute;
-	top: -190px;
+    top: -190px;
     z-index: 1;
     width: 100%;
 }
@@ -366,11 +366,10 @@ a {
 
 .inner-invested, .inner-advantages, .inner-documents, .inner-team, .inner-road {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
-
-.inner-invested{
+.inner-invested {
     padding-top: 80px;
 }
 
@@ -654,18 +653,18 @@ ul li {
     display: flex;
     justify-content: space-between;
 
-    background: rgba(13,18,29,1);
-	background: -moz-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(13,18,29,1)), color-stop(100%, rgba(33,47,79,1)));
-	background: -webkit-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: -o-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: -ms-linear-gradient(left, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	background: linear-gradient(to right, rgba(13,18,29,1) 0%, rgba(33,47,79,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d121d', endColorstr='#212f4f', GradientType=1 );
+    background: rgba(13, 18, 29, 1);
+    background: -moz-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(13, 18, 29, 1)), color-stop(100%, rgba(33, 47, 79, 1)));
+    background: -webkit-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: -o-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    background: linear-gradient(to right, rgba(13, 18, 29, 1) 0%, rgba(33, 47, 79, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d121d', endColorstr='#212f4f', GradientType=1);
 
-	-webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .invested-item-2 {
@@ -751,22 +750,22 @@ ul li {
 
 .switch-btn {
     height: 50px;
-	width: 60%;
-	background-size: 100%;
-	background-repeat: no-repeat;
+    width: 60%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     border-radius: 25px;
     margin: 30px auto;
 }
 
-.inner-switch{
-	background-image: url("../images/loading.png");
-	height: 50px;
-	width: 100%;
-	border-radius: 25px;
+.inner-switch {
+    background-image: url("../images/loading.png");
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
 }
 
 .switch-btn .btn {
-	height: 51px;
+    height: 51px;
     width: 190px;
     background: linear-gradient(to left, #212F4F, #0D121D);
     border-radius: 25px;
@@ -1261,6 +1260,7 @@ h2 {
     width: 35px;
     height: 35px;
 }
+
 .ico-two {
     margin: 55px 30px;
     width: 35px;
@@ -1289,48 +1289,165 @@ h2 {
 }
 
 @keyframes animatedBackground {
-    0 {
-        background-position: 0 0
-    }
-    100% {
-        background-position: -600px 0 /* анимируем свойство background-position */
-    }
+
+0
+{
+    background-position: 0 0
+}
+100
+%
+{
+    background-position: -600px 0 /* анимируем свойство background-position */
+}
 }
 /* Mozilla Firefox 5.0+ */
 @-moz-keyframes animatedBackground {
-    0 {
-        background-position: 0 0
-    }
-    100% {
-        background-position: -600px 0
-    }
+
+0
+{
+    background-position: 0 0
+}
+100
+%
+{
+    background-position: -600px 0
+}
 }
 /* Safari 4.0+, Chrome 4.0+ */
 @-webkit-keyframes animatedBackground {
-    0 {
-        background-position: 0 0
-    }
-    100% {
-        background-position: -600px 0
-    }
+
+0
+{
+    background-position: 0 0
+}
+100
+%
+{
+    background-position: -600px 0
+}
 }
 /* Opera 12.0+ */
 @-o-keyframes animatedBackground {
-    0 {
-        background-position: 0 0
-    }
-    100% {
-        background-position: -600px 0
-    }
+
+0
+{
+    background-position: 0 0
+}
+100
+%
+{
+    background-position: -600px 0
+}
 }
 /* не нужно использовать префикс -ms, так как свойства keyframes и animation поддерживаются с версии IE10 без префикса */
-.inner-switch{
-	animation: animatedBackground 10s linear infinite;
-	-moz-animation: animatedBackground 10s linear infinite;
-	-webkit-animation: animatedBackground 10s linear infinite;
- 	-o-animation: animatedBackground 10s linear infinite;
-	/* так же, как и с @keyframes, префикс -ms тут ни к чему */
+.inner-switch {
+    animation: animatedBackground 10s linear infinite;
+    -moz-animation: animatedBackground 10s linear infinite;
+    -webkit-animation: animatedBackground 10s linear infinite;
+    -o-animation: animatedBackground 10s linear infinite;
+    /* так же, как и с @keyframes, префикс -ms тут ни к чему */
 }
 
+/* ico-structure-image section */
+.ico-structure .wrapper-image .ico-structure-image {
+    width: 400px;
+}
 
+.ico-structure-description {
+    width: 400px;
+    text-align: center;
+}
 
+.ico-structure-text {
+    font-size: 30px;
+    color: #1A2435;
+    line-height: 40px;
+}
+
+.second-block .ico-structure-text {
+    color: #FFFFFF;
+    margin-top: 160px;
+}
+
+.second-block .ico-structure-image {
+    float: left;
+}
+
+/* ico-structure-image section end */
+
+/* monetization section */
+
+.monetization .row {
+    padding: 0 100px;
+}
+
+.monetization-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: table;
+    white-space: nowrap;
+    color: #FBFBFB;
+    margin: 40px auto;
+    letter-spacing: 10px;
+}
+
+.monetization-title:before {
+    border-top: 3px solid #FBFBFB;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: -20px;
+}
+
+.monetization-title:after {
+    border-top: 3px solid #FBFBFB;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: 20px;
+}
+
+.monetization li {
+    line-height: 26px;
+    font-size: 23px;
+    padding: 5px;
+}
+
+.monetization .image {
+    position: relative;
+    text-align: center;
+}
+
+.wrapper-monetization-image {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.steps {
+    padding-top: 20%;
+    color: #FE8C1A;
+    font-size: 36px;
+}
+.steps span{
+    color: inherit;
+    font-size: 75px;
+}
+
+.monetization .image img {
+    width: 500px;
+    height: 500px;
+}
+
+/* monetization section end */
