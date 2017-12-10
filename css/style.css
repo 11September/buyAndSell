@@ -341,9 +341,10 @@ a {
 
 .platform-bg {
     position: absolute;
-    top: -330px;
-    z-index: 2;
+    top: -355px;
+    z-index: 0;
     width: 100%;
+    height: 2800px;
 }
 
 .advantages-bg {
@@ -360,7 +361,7 @@ a {
 
 .inner-platform {
     position: relative;
-    z-index: 3;
+    z-index: 2;
 
 }
 
@@ -746,7 +747,7 @@ ul li {
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 150%;
+	height: 175%;
 }
 
 .switch-btn {
@@ -885,6 +886,7 @@ ul li {
     color: #FBFBFB;
     margin: 80px auto;
     letter-spacing: 10px;
+    padding-left: 50px;
 }
 
 .our-mission-title:before {
@@ -921,7 +923,7 @@ ul li {
 }
 
 .mission-list li {
-    padding: 10px;
+    padding: 5px 10px;
     font-size: 23px;
     color: #FBFBFB;
     line-height: 30px;
@@ -1199,7 +1201,7 @@ h2 {
 }
 
 .total-invested {
-    height: 900px;
+    height: 800px;
 }
 
 /*team start*/

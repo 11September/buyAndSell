@@ -32,6 +32,18 @@
 	.intro-header {
 	    font-size: 60px;
 	}
+
+	.mission-list {
+	    margin-top: 20px;
+	    margin-right: 40px;
+	    font-size: 23px;
+	    width: auto;
+	    float: none;
+	}
+
+	.mission-list ul {
+	    width: auto;
+	}
 }
 
 @media (max-width: 1200px){
@@ -85,6 +97,10 @@
 	.intro-bg {
 	    height: 820px;
 	}
+
+	.our-mission-title {
+	    padding-left: 0;
+	}
 }
 
 @media (max-width: 991px){
@@ -134,7 +150,32 @@
 	}
 
 	.invested-bg {
-	    height: 130%;
+	    height: 145%;
+	}
+
+	.platform-title,.our-mission-title{
+	    width: 700px;
+	    font-size: 40px;
+	}
+
+	.platform {
+	     padding-top: 20px; 
+	}
+
+	.inner-platform.two {
+	    padding-top: 305px;
+	}
+
+	.mission-list li {
+	    font-size: 20px;
+	}
+
+	.our-mission-title {
+	    color: #212f4f;
+	}
+
+	.platform-bg {
+	    top: -520px;
 	}
 }
 
@@ -178,11 +219,45 @@
 	}
 
 	.invested-bg {
-	    height: 110%;
+	    height: 131%;
 	}
 
 	.switch-btn {
 	    width: 80%;
+	}
+
+	.platform-title,.our-mission-title{
+	    width: 600px;
+	    font-size: 30px;
+	}
+
+	.inner-platform.two .row{
+		flex-wrap: wrap;
+	}
+
+	.mission-list {
+	    margin-right: 0;
+	    text-align: center;
+	}
+
+	.mission-list ul {
+	    margin-right: 0;
+	}
+
+	.mission-list li {
+	    text-shadow: 2px 2px 2px black;
+	}
+
+	.inner-platform.two {
+	    padding-top: 50px;
+	}
+
+	.our-mission-title:after {
+	    border-top: 3px solid #303d5b;
+	}
+
+	.platform-bg {
+	    top: -520px;
 	}
 }
 
@@ -205,11 +280,25 @@
 	    width: 90%;
 	}
 
+	.platform-title,.our-mission-title{
+	    width: 400px;
+	    font-size: 26px;
+	}
 
+	.platform-bg {
+	    top: -450px;
+		height: 2900px;
+	}
+
+	.platform-bg {
+	    top: -640px;
+	}
 
 }
 
 @media (max-width: 480px){
+
+
 
 	.inner-intro {
 	    width: 90%;
@@ -273,6 +362,40 @@
 
 	.switch-btn .hard {
 	    padding: 15px 20px;
+	}
+
+	.platform-title,.our-mission-title{
+	    width: 300px;
+	    font-size: 24px;
+	    line-height: 50px;
+	    white-space: normal;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.platform-title:before,.platform-title:after {
+	    top: 45px;
+	}
+
+	.inner-platform .row {
+    	display: flex;
+	    flex-wrap: wrap;
+	}
+
+	.accordion .panel-default {
+	    margin-right: 50px;
+	}
+
+	.accordion .panel-title-child:active, .accordion .panel-title-child:link {
+	    font-size: 18px;
+	}
+
+	.accordion .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	    font-size: 18px;
+	}
+
+	.platform-bg {
+	    height: 3600px;
 	}
 
 }
