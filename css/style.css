@@ -928,7 +928,7 @@ ul li {
 .inner-platform .row {
     display: flex;
     align-items: center;
-    width: 1230px;
+    /*width: 1230px;*/
 }
 
 .inner-platform .image {
@@ -1352,6 +1352,45 @@ h2 {
 }
 
 /* ico-structure-image section */
+.structure-title {
+    width: 900px;
+    margin: 20px auto;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    display: table;
+    white-space: nowrap;
+    color: #212F4F;
+    letter-spacing: 10px;
+}
+
+.structure-title:before {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: -20px;
+}
+
+.structure-title:after {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: 20px;
+}
+
+.ico-structure h5{
+    text-align: center;
+    color: #1A2435;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
 .ico-structure .wrapper-image .ico-structure-image {
     width: 400px;
 }
