@@ -114,6 +114,10 @@
 	    margin-top: 150px;
 	}
 
+	.paper-block {
+	    width: 60%;
+	}
+
 }
 
 @media (max-width: 991px){
@@ -211,6 +215,43 @@
 	.right-block {
 	    margin-top: 250px;
 	}
+
+	.demand-tokens-box {
+	    padding: 0 20%;
+	}
+
+	.inner-tokens {
+	    position: relative;
+	    z-index: 3;
+	    padding-top: 5px;
+	}
+
+	.paper-block {
+	    width: 70%;
+	}
+
+	.documents{
+		background: #212f4f;
+	}.documents {
+    position: relative;
+    padding-top: 250px;
+    height: 2835px;
+}
+
+	#documents {
+	    background: #212f4f;
+	}
+
+	.documetns-title,.subscribe-title{
+	    color: #ffffff;
+	    width: 600px;
+	}
+
+	.subscribe-field{
+		width: 80%;
+    	margin: 0 auto;
+    	margin-top: 40px;
+	}
 }
 
 @media (max-width: 800px){
@@ -299,7 +340,52 @@
     	height: 4100px;
 	}
 
+	.paper-block {
+	    width: 80%;
+	}
 
+	.download-eng{
+		padding-left: 20px;
+	}
+
+	.download-rus{
+		padding-right: 20px;
+	}
+
+	.paper-block .download {
+	    flex-direction: column;
+	}
+
+	.paper-block .download-eng{
+		padding-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.paper-block .download-rus{
+		padding-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		margin-right: 0;
+	}
+
+	.paper-block .white-papper {
+	    font-size: 40px;
+	}
+
+	.documetns-title,.subscribe-title{
+	    color: #ffffff;
+	    width: 500px;
+	    font-size: 35px;
+	}
+
+	.team-image {
+	    padding: 30px 15px;
+	    padding-left: 20%;
+	    padding-right: 20%;
+	}
 }
 
 
@@ -354,14 +440,16 @@
 	    padding: 0px 20px;
 	}
 
-
-
+	.documetns-title,.subscribe-title{
+	    color: #ffffff;
+	    width: 400px;
+	    font-size: 30px;
+	    white-space: normal;
+	    line-height: 40px;
+	}
 }
 
 @media (max-width: 480px){
-
-
-
 	.inner-intro {
 	    width: 90%;
 	}
@@ -465,7 +553,7 @@
 	}
 
 	.advantages-bg {
-	    height: 4760px;
+		height: 4980px;
 	}
 
 	.advantages-investors-title{
@@ -503,4 +591,40 @@
 	    left: -10px;
 	}
 
+	.demand-tokens-box {
+	    padding: 0px 10%;
+	}
+
+	.paper-block .white-papper {
+	    font-size: 30px;
+	}
+
+	.documetns-title,.subscribe-title{
+	    width: 250px;
+	    font-size: 24px;
+	    white-space: normal;
+	    line-height: 40px;
+	}
+
+	.inner-documents .item-body {
+	    padding: 70px 20px;
+	}
+
+	.subscribe-field{
+		width: 100%;
+    	margin: 0 auto;
+    	margin-top: 40px;
+	}
+
+	.our-team h2 {
+	    font-size: 40px;
+	}
+
+	.our-team h4 {
+	    padding: 20px 30px 40px;
+	}
+
+	.advisors h2 {
+	    font-size: 40px;
+	}
 }

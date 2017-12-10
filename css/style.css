@@ -203,11 +203,9 @@ a {
 /*Tokens style */
 .demand-tokens {
     position: relative;
-    margin-top: -150px;
-}
+    margin-top: 0;
+    background: #212f4f;
 
-.demand-row {
-    padding-bottom: 140px;
 }
 
 .tokens-bg {
@@ -224,6 +222,7 @@ a {
 
 .documents-bg {
     position: absolute;
+    left: 0;
     top: 0;
     z-index: 1;
     width: 100%;
@@ -357,7 +356,7 @@ a {
 
 .advantages {
     position: relative;
-    height: 2700px;
+    height: auto;
 }
 
 .inner-platform {
@@ -451,12 +450,19 @@ ul li {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    -webkit-box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 16px 0px rgba(0,0,0,0.75);
 }
 
 .graph-image {
     text-align: center;
     background: #212F4F;
-    padding-bottom: 250px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .documents {
@@ -471,13 +477,13 @@ ul li {
 
 /*paper-block start*/
 .paper-block {
-    height: 700px;
-    width: 700px;
+    height: auto;
+    width: 40%;
     background: white;
     color: #212f4f;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 400px;
+	margin-bottom: 280px;
     position: relative;
     border-radius: 15px;
     box-shadow: 0 30px 20px rgba(0, 0, 0, 0.3);
@@ -543,13 +549,17 @@ ul li {
 
 .paper-block .copyright {
     padding: 0 15px 25px;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    padding-top: 50px;
 }
+
+
 
 /*paper-block end*/
 #documents {
     padding: 0 40px;
+
 }
 
 .inner-documents image {
@@ -559,7 +569,7 @@ ul li {
 
 .inner-documents .item-body {
     text-align: center;
-    background: #212f4f;
+    background: #172239;
     height: 360px;
     padding: 60px 65px 80px 65px;
     border: 1px solid #95989A;
@@ -1366,5 +1376,14 @@ h2 {
     list-style-image: url(images/book.png); /* Путь к изображению маркера */
    }
 
+.demand-title{
+	color: white;
+	letter-spacing: 0;
+	margin-top: 100px;
+}
+
+.inner-tokens .platform-title:before,.inner-tokens .platform-title:after{
+	border-top: 3px solid #ffffff;
+}
 
 
