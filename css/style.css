@@ -1060,7 +1060,7 @@ ul li {
 
 .advantages-users-content {
     margin-top: 32px;
-    padding: 0px 0 0 35%;
+    padding: 0 0 0 35%;
 }
 
 .advantages-users-content ul {
@@ -1440,3 +1440,40 @@ h2 {
 .inner-platform.subscribe{
 	background: transparent;
 }
+
+
+/* monetization third page */
+#monetization{
+    padding: 0 70px;
+}
+
+#monetization .item-body{
+    height:270px;
+    margin-bottom: 50px;
+    padding: 20px 0 10px 0;
+    background: linear-gradient(180deg , #496CB5, #25365B);
+    box-shadow: 4px 4px 20px black;
+    border: none;
+}
+#monetization .item-body .image{
+    width:100%;
+    height:150px;
+    margin-bottom: 30px;
+}
+/* monetization third page end */
+
+/* benefits third page */
+.benefits-wrapper-image{
+    width:100%;
+    text-align: center !important;
+}
+
+.benefits-subscribe .benefits-wrapper-image .benefits-image{
+    width:350px;
+    margin: 0 auto;
+}
+
+.benefits-subscribe-list{
+    text-align: right;
+}
+/* benefits third page end */
