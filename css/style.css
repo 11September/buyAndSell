@@ -269,7 +269,7 @@ a {
 
 .ico-structure-bg {
     position: absolute;
-    top: -200px;
+	top: -240px;
     z-index: 1;
     width: 100%;
 }
@@ -362,7 +362,11 @@ a {
 .inner-platform {
     position: relative;
     z-index: 2;
+}
 
+.inner-trader{
+	position: relative;
+    z-index: 2;
 }
 
 .inner-invested, .inner-advantages, .inner-documents, .inner-team, .inner-road {
@@ -1387,3 +1391,52 @@ h2 {
 }
 
 
+.components{
+	position: relative;
+	z-index: 2;
+	padding-bottom: 200px;
+}
+
+.components-bg{
+	bottom: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #212F4F;
+}
+
+.advantages-platform{
+	position: relative;
+	z-index: 2;
+}
+
+.advantage-platform-bg{
+    top: -100px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #212f4f;
+}
+
+.advantages-platform .advantages-investors-title{
+	color: white;
+}
+
+.benefits-subscribe{
+	position: relative;
+	z-index: 2;
+}
+
+.benefits-subscribe-bg{
+	bottom: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-platform.subscribe{
+	background: transparent;
+}
