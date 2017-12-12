@@ -48,6 +48,14 @@
 	.right-block {
 	    margin-top: 250px;
 	}
+
+	.token-trader .mission-list{
+		padding-left: 10%;
+	}
+
+	.mission-list ul {
+	    padding-left: 10%;
+	}
 }
 
 @media (max-width: 1200px){
@@ -116,6 +124,45 @@
 
 	.paper-block {
 	    width: 60%;
+	}
+
+	.token-bg {
+	    height: 150%;
+	}
+
+	.token-trader {
+	    height: auto;
+	}
+
+	.inner-ico.first {
+	    top: 0;
+	}
+
+	.ico-structure-bg {
+	    top: 0;
+	}
+
+	.mission-list ul {
+	    padding-bottom: 50px;
+	}
+
+
+
+	.ico-structure {
+	    padding-top: 50px;
+	}
+
+	.inner-ico.second .row {
+	    padding-top: 200px;
+	}
+
+	.platform-title {
+	    font-size: 40px;
+	}
+
+	.monetization-title.platform-title {
+	    white-space: normal;
+	    line-height: 50px;
 	}
 
 }
@@ -242,6 +289,7 @@
 	    background: #212f4f;
 	}
 
+
 	.documetns-title,.subscribe-title{
 	    color: #ffffff;
 	    width: 600px;
@@ -252,11 +300,109 @@
     	margin: 0 auto;
     	margin-top: 40px;
 	}
+
+	.token-bg {
+    	height: 205%;
+	}
+
+	.inner-platform .row{
+		flex-wrap: wrap;
+	}
+
+	.token-trader .inner-platform .image {
+	     padding-right: 0; 
+	}
+
+	.token-trader .mission-list{
+		padding-left: 0;
+	}
+
+	.token-trader .mission-list ul {
+	    margin-right: 10%;
+	}
+
+	.ico-structure-description{
+		text-align: center;
+	}
+
+	.ico-structure-text {
+	     padding-right: 0; 
+	}
+
+	.ico-structure-bg {
+	    height: 170%;
+	}
+
+	.second-block .ico-structure-text {
+	    padding-left: 0;
+	    padding-bottom: 100px;
+	}
+
+	.monetization-bg {
+	    top: 0;
+	}
+
+	.second-page-body .token-bg{
+    	display: none;
+	}
+
+	.second-page-body .token-trader{
+    	background: #fe8c1a;
+	}
+
+	.second-page-body .monetization-bg {
+		display: none;
+	}
+
+	.second-page-body .monetization{
+		background: #fe8c1a;
+		z-index: 2;
+	}
+
+	.second-page-body .total-invested.second-page {
+	    background: #fe8c1a;
+	}
+
+	.second-page-body  .ico-structure {
+	    height: auto;
+	    background: #fe8c1a;
+	}
+
+	.second-page-body .ico-structure-bg{
+		display: none;
+	}
+
+
+
+
+
+
+/*
+	.all-main-page section{
+	    background-color: #212F4F;
+	}
+
+	.ico-structure-bg,.monetization-bg{
+		display: none;
+	}*/
 }
 
 @media (max-width: 800px){
 	.inner-intro {
 	    width: 80%;
+	}
+
+	.monetization .mission-list ul{
+		padding-left: 0;
+	}
+
+	.monetization .inner-platform .image{
+		text-align: center;
+		padding-right: 0;
+	}
+
+	.monetization-title.platform-title {
+	    padding-bottom: 30px;
 	}
 
 	.invested-item-name {
@@ -386,10 +532,19 @@
 	    padding-left: 20%;
 	    padding-right: 20%;
 	}
+
+
+
 }
 
 
 @media (max-width: 600px){
+
+	.platform-title{
+		white-space: normal;
+		line-height: 55px;
+	}
+
 	.intro-bg {
 	    height: 800px;
 	}
@@ -447,6 +602,15 @@
 	    white-space: normal;
 	    line-height: 40px;
 	}
+
+	.ico-structure-bg {
+	    height: 180%;
+	}
+
+	.inner-ico.second .ico-structure-description {
+	    padding-top: 120px;
+	}
+
 }
 
 @media (max-width: 480px){
@@ -523,8 +687,16 @@
 	    padding-right: 20px;
 	}
 
+	.monetization .monetization-title {
+		font-size: 18px;
+	}
+
 	.platform-title:before,.platform-title:after {
 	    top: 45px;
+	}
+
+	.platform-title {
+	    margin: 0;
 	}
 
 	.inner-platform .row {
@@ -626,5 +798,17 @@
 
 	.advisors h2 {
 	    font-size: 40px;
+	}
+
+	.ico-structure-bg {
+	    height: 200%;
+	}
+
+	.inner-ico.second .ico-structure-description {
+	    padding-top: 350px;
+	}
+
+	.ico-structure-image {
+	    width: 300px;
 	}
 }
