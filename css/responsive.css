@@ -372,6 +372,36 @@
 		display: none;
 	}
 
+	.monetization .inner-platform.second{
+		    background: #fe8c1a;
+	}
+
+	.ico-structure .inner-ico.second .row {
+	    padding-top: 0;
+	}
+
+	.monetization .monetization-title {
+	    margin: -1px auto 50px auto;
+	}
+
+	.monetization .inner-platform.second {
+	    padding-bottom: 0;
+	}
+
+	.advantages-users-title {
+	    text-align: center;
+	    width: 100%;
+	    padding-left: 40px;
+	}
+
+	.monetization .advantages-list ul {
+	    padding-left: 30px;
+	}
+
+	.token-trader{
+		top: -50px;
+	}
+
 
 
 
@@ -810,5 +840,29 @@
 
 	.ico-structure-image {
 	    width: 300px;
+	}
+
+	.monetization .inner-platform.second {
+	    padding-bottom: 0;
+	}
+
+	.monetization .advantages-list ul {
+	    padding-left: 20px;
+	}
+
+	.monetization-title{
+		width: 100%;
+	}
+
+	.monetization .subscribe {
+		top: -100px;
+	}
+
+	.advantages-users-title{
+		white-space: normal;
+	}
+
+	.structure-title {
+	    width: 100%;
 	}
 }
