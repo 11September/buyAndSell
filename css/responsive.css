@@ -11,6 +11,14 @@
 	    z-index: 1;
 	    width: 100%;
 	}
+
+	.components .image .ipad-2{
+	    width: 600px;
+	}
+
+	#monetization .item-body {
+	    margin-bottom: -1px;
+	}
 }
 
 @media (max-width: 1366px){
@@ -56,6 +64,17 @@
 	.mission-list ul {
 	    padding-left: 10%;
 	}
+
+	.monetization .subscribe{
+	    padding-bottom: 0;
+	    margin-top: -400px;
+	}
+
+	.deset{
+		margin-left: 33.33333333%;
+	}
+
+	
 }
 
 @media (max-width: 1200px){
@@ -164,6 +183,29 @@
 	    white-space: normal;
 	    line-height: 50px;
 	}
+
+	.buy-platform .inner-trader .platform-title {
+	    margin: 300px auto 100px auto;
+	}
+
+	.components .our-mission-title {
+	    padding-top: 100px;
+	    white-space: normal;
+	}
+
+	.monetization .inner-platform.second {
+	    top: -350px;
+	}
+
+	.monetization .subscribe {
+	    margin-top: -600px;
+	}
+
+	#monetization .item-body {
+	    margin-bottom: -1px;
+	}
+
+
 
 }
 
@@ -402,7 +444,98 @@
 		top: -50px;
 	}
 
+	.third-page .total-invested{
+		background: #fe8c1a;
+	}
 
+	.third-page .buy-platform{
+		background: #fe8c1a;
+	}
+
+	.third-page .buy-platform .inner-trader .platform-title {
+	    margin: 0px auto 100px auto;
+	}
+
+	.components-bg{
+		display: none;
+	}
+
+	.third-page .components{
+		background: #fe8c1a;
+	}
+
+	.components .mission-list{
+		width: 100%;
+	    text-align: right;
+	    padding: 0;
+	}
+
+	.components .mission-list li{
+		font-size: 22px;
+	}
+
+	.components .our-mission-title{
+		white-space: normal;
+	}
+
+	.components .mission-list-2 {
+	    width: 100%;
+	}
+
+	.components .inner-platform .image {
+		padding-right: 0;
+	}
+
+	.buy-platform {
+	    height: 1000px;
+	}
+
+	.components .our-mission-title {
+	     padding-top: 0; 
+	}
+
+	.third-page .advantages-platform{
+		background: #fe8c1a;
+	}
+
+	.third-page .advantage-platform-bg{
+		display: none;
+	}
+
+	.third-page #monetization{
+		background: #fe8c1a;
+	}
+
+	.third-page  #monetization .documetns-title {
+	    padding-left: 0;
+	}
+
+	.benefits-subscribe .subscribe{
+	    padding-top: 40px;
+	}
+
+	.mission-list ul {
+	    padding-left: 10%;
+	    padding-right: 10%;
+	    margin-right: 0;
+	}
+
+	.benefits-subscribe {
+	    background: #fe8c1a;
+	}
+
+	.benefits-subscribe-bg{
+		display: none;
+	}
+
+	.monetization .subscribe {
+	    margin-top: -200px;
+	    padding-bottom: 100px;
+	}
+
+	.second-page-body  .ico-structure{
+		margin-top: -50px;
+	}
 
 
 
@@ -563,6 +696,18 @@
 	    padding-right: 20%;
 	}
 
+	.components .image .ipad-2 {
+	    width: 100%;
+	}
+
+	.advantages-platform{
+		height: auto;
+
+	}
+
+	.third-page #monetization{
+		padding-top: 200px;
+	}
 
 
 }
@@ -639,6 +784,22 @@
 
 	.inner-ico.second .ico-structure-description {
 	    padding-top: 120px;
+	}
+
+	.third-page #monetization{
+		padding-top: 300px;
+	}
+
+	.token-trader .mission-list ul {
+	    margin-right: 0;
+	}
+
+	.inner-ico.second .ico-structure-description {
+	    padding-top: 100px;
+	}
+
+	.second-page-body .ico-structure {
+	    margin-top: -50px;
 	}
 
 }
@@ -727,6 +888,8 @@
 
 	.platform-title {
 	    margin: 0;
+	    width: 100%;
+	    padding-bottom: 50px;
 	}
 
 	.inner-platform .row {
@@ -834,10 +997,6 @@
 	    height: 200%;
 	}
 
-	.inner-ico.second .ico-structure-description {
-	    padding-top: 350px;
-	}
-
 	.ico-structure-image {
 	    width: 300px;
 	}
@@ -865,4 +1024,46 @@
 	.structure-title {
 	    width: 100%;
 	}
+
+	.advantages-platform .advantages-users-content ul li,.advantages-platform .advantages-users-title {
+	    text-shadow: none;
+	}
+
+	.third-page #monetization{
+		padding-top: 0;
+		padding: 0;
+	}
+
+	.third-page .advantages-platform .platform {
+	    height: auto;
+	}
+
+	.third-page  #monetization .documetns-title{
+		font-size: 30px;
+	}
+
+	.third-page #monetization .documetns-title {
+	    font-size: 22px;
+	}
+
+	.benefits-subscribe .benefits-wrapper-image .benefits-image {
+	    width: 200px;
+	}
+
+	.pgwSlider {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.monetization .subscribe{
+	    padding-top: 0;
+	    padding-bottom: 0;
+	    margin-top: -100px;
+	}
+
+	.second-page-body  .ico-structure{
+		margin-top: -50px;
+	}
+
+
 }
