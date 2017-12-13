@@ -1764,3 +1764,42 @@ h2 {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     cursor:pointer;
 }
+
+.inner-documents .row.second{
+    margin-top: 40px!important;
+}
+
+.modal-dialog{
+    width: 50%;
+    float: right;
+    margin: 0;
+    height: 100%;
+    
+}
+
+.modal-content{
+   border-radius: 0; 
+   height: 100%;
+    background-image: url(../images/bio4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#myModal{
+    padding-right: 0!important;
+}
+
+.modal-text{
+        padding: 0 40px;
+        font-size: 20px;
+        color: white;
+}
+
+.modal-title{
+    text-align: center;
+    color: white;
+}
+
+.modal-header {
+    border-bottom: none;
+}
