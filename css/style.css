@@ -100,7 +100,7 @@ a {
     position: relative;
     z-index: 2;
     text-align: left;
-    padding-top: 250px;
+    padding-top: 150px;
     width: 48%;
     margin: 0 auto;
 }
@@ -1005,7 +1005,7 @@ ul li {
 
 .mission-list ul {
     width: 620px;
-    margin-right: 50px;
+    /*margin-right: 50px;*/
 }
 
 .mission-list li {
@@ -1031,7 +1031,7 @@ ul li {
 
 .inner-platform .image {
     margin-top: 5%;
-    padding-right: 180px;
+    /*padding-right: 180px;*/
 }
 
 /* our mission end */
@@ -1626,7 +1626,7 @@ h2 {
 
 .buy-platform .inner-trader .platform-title {
     margin: 0 auto;
-    padding-top: 400px;
+    padding-top: 380px;
     padding-bottom: 50px;
     color: #212f4f;
 }
@@ -1724,7 +1724,7 @@ h2 {
 
 #monetization .documetns-title {
     width: 100%;
-    padding-left: 200px;
+    /*padding-left: 200px;*/
     color: white;
     white-space: normal;
 }
@@ -1743,7 +1743,7 @@ h2 {
 }
 
 .benefits-subscribe .mission-list ul{
-    text-align: center;
+    text-align: left;
 }
 
 .benefits-subscribe .our-mission-title {
