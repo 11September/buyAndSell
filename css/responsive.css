@@ -205,6 +205,10 @@
 	    margin-bottom: -1px;
 	}
 
+	.inner-intro {
+	    padding-top: 80px;
+	}
+
 
 
 }
@@ -212,7 +216,7 @@
 @media (max-width: 991px){
 	.menu ul li {
 	    display: inline-block;
-    	padding: 40px 10px;
+    	padding: 20px 10px;
 	    color: white;
 	    font-size: 24px;
 	}
@@ -220,6 +224,7 @@
 	.menu ul {
     	flex-direction: column;
     	text-align: center;
+    	padding-top: 40px;
 	}
 
 	.menu li:first-child {
@@ -237,6 +242,7 @@
 
 	.menu{
 		height: 100vh;
+		overflow: scroll;
 	}
 
 	.inner-intro {
@@ -536,6 +542,12 @@
 	.second-page-body  .ico-structure{
 		margin-top: -50px;
 	}
+
+	.top-image img {
+	    width: 100%;
+	}
+
+
 
 
 

@@ -8,4 +8,9 @@ $(document).ready(function() {
  		$(".mobi-icons .ico-bg").toggleClass('fone-hide');
     });
 
+    $(".social-block .left-part").click(function () {
+		$(".social-block").toggleClass('open');
+		$(".social-block .right-part").toggleClass('hide');
+    });
+
 });
