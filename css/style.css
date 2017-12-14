@@ -354,7 +354,7 @@ a {
 }
 
 .documetns-title:after {
-    border-top: 3px solid #212F4F;
+    border-top: 3px solid #FFFFFF;
     content: '';
     display: table-cell;
     position: relative;
@@ -968,7 +968,7 @@ ul li {
 }
 
 .our-mission-title:before {
-    border-top: 3px solid #212F4F;
+    border-top: 3px solid #ffffff;
     content: '';
     display: table-cell;
     position: relative;
@@ -978,7 +978,7 @@ ul li {
 }
 
 .our-mission-title:after {
-    border-top: 3px solid #FBFBFB;
+    border-top: 3px solid #FFFFFF;
     content: '';
     display: table-cell;
     position: relative;
@@ -996,16 +996,19 @@ ul li {
 }
 .mission-list-2 {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 15px;
     font-size: 22px;
-    width: 620px;
-    float: right;
+    width: 570px;
     line-height: 29px;
 }
 
 .mission-list ul {
     width: 620px;
     /*margin-right: 50px;*/
+}
+.mission-list p {
+    font-size: 23px;
+    line-height: 30px;
 }
 
 .mission-list li {
@@ -1033,7 +1036,10 @@ ul li {
     margin-top: 5%;
     /*padding-right: 180px;*/
 }
-
+. flax {
+    display: flex;
+    align-items: center;
+}
 /* our mission end */
 
 /* advantages investors section */
@@ -1198,7 +1204,7 @@ ul li {
     text-align: center;
     display: table;
     white-space: nowrap;
-    color: #FBFBFB;
+    color: #FFFFFF;
     margin: 40px auto;
     letter-spacing: 10px;
 }
@@ -1245,7 +1251,7 @@ ul li {
 
 h2 {
     white-space: nowrap;
-    color: #212F4F;
+    color: white;
     font-size: 30px;
 }
 
@@ -1258,6 +1264,24 @@ h2 {
     font-size: 50px;
     font-weight: 600;
     text-align: center;
+}
+.our-team h2:before {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: -20px;
+}
+.our-team h2:after {
+    border-top: 3px solid #212F4F;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: 20px;
 }
 
 .our-team h4 {
@@ -1290,7 +1314,7 @@ h2 {
 }
 
 .advisors {
-    padding-top: 200px;
+    padding-top: 150px;
     background: #212f4f;
 }
 
@@ -1301,7 +1325,54 @@ h2 {
     font-weight: 600;
     padding-bottom: 40px;
 }
+.advisors h2:before {
+    border-top: 3px solid white;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: -20px;
+}
 
+.advisors h2:after {
+    border-top: 3px solid white;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: 20px;
+}
+.inner-road h2 {
+    color: white;
+    text-align: center;
+}
+
+.inner-road h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+.inner-road h2:before {
+    border-top: 3px solid white;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: -20px;
+}
+
+.inner-road h2:after {
+    border-top: 3px solid white;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 200px;
+    left: 20px;
+}
 .road-map {
     background: #212f4f;
     position: relative;
@@ -1547,11 +1618,14 @@ h2 {
     padding-bottom: 505px;
     top: -250px;
 }
-
+.monetization .advantages-list span{
+    color: #FE8C1A;
+}
 .monetization .advantages-list li{
     color: white;
     font-size: 22px;
     padding-top: 10px;
+    list-style-type: none;
 }
 
 .monetization .advantages-list ul{

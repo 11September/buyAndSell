@@ -73,8 +73,27 @@
 	.deset{
 		margin-left: 33.33333333%;
 	}
+	.paper-block .download-rus a {
+		display: flex;
+	}
+	.paper-block .download-eng a {
+		display: flex;
+	}
+	.paper-block .download-eng {
+		padding-right: 70px;
+		margin-right: 70px;
+	}
+	.paper-block .white-papper {
+		padding-bottom: 80px;
+	}
 
-	
+	.inner-documents .item-body img {
+		padding-top: 15px;
+		height: 100%;
+	}
+	.inner-documents .item-body h4 {
+		font-size: 27px;
+	}
 }
 
 @media (max-width: 1200px){
@@ -185,7 +204,7 @@
 	}
 
 	.buy-platform .inner-trader .platform-title {
-	    margin: 300px auto 100px auto;
+	    margin: 100px auto 100px auto;
 	}
 
 	.components .our-mission-title {
@@ -204,9 +223,12 @@
 	#monetization .item-body {
 	    margin-bottom: -1px;
 	}
-
-
-
+	.inner-documents .item-body h4 {
+		font-size: 26px;
+	}
+	.inner-documents .item-body {
+		padding: 60px 50px 80px 50px;
+	}
 }
 
 @media (max-width: 991px){
@@ -294,9 +316,11 @@
 	}
 
 	.mission-list li {
-	    font-size: 18px;
+		font-size: 27px;
 	}
-
+	.benefits-subscribe .mission-list ul {
+		text-align: center;
+	}
 	.advantages {
 	    padding: 10px 0 0 0;
 	}
@@ -306,7 +330,7 @@
 	}
 
 	.demand-tokens-box {
-	    padding: 0 20%;
+		padding: 15px 20%;
 	}
 
 	.inner-tokens {
@@ -318,7 +342,16 @@
 	.paper-block {
 	    width: 70%;
 	}
-
+	.inner-documents .item-body img {
+		width: 130px;
+		padding-top: 0;
+	}
+	.inner-documents .item-body {
+		margin-bottom: 30px;
+	}
+	.subscribe {
+		margin-top: 80px;
+	}
 	.documents{
 		background: #212f4f;
 	}.documents {
@@ -439,7 +472,12 @@
 	.monetization .advantages-list ul {
 	    padding-left: 30px;
 	}
-
+	#monetization .item-body {
+		margin-bottom: 30px;
+	}
+	.inner-documents .row.second {
+		margin-top: 0!important;
+	}
 	.token-trader{
 		top: -50px;
 	}
@@ -453,7 +491,7 @@
 	}
 
 	.third-page .buy-platform .inner-trader .platform-title {
-	    margin: 0px auto 100px auto;
+	    margin: 0px auto;
 	}
 
 	.components-bg{
@@ -536,9 +574,16 @@
 	.second-page-body  .ico-structure{
 		margin-top: -50px;
 	}
-
-
-
+	.mission-list p {
+		padding-left: 40px;
+		font-size: 28px;
+	}
+	.inner-platform .image img {
+		width: 70%;
+	}
+	.deset {
+		margin-left:0;
+	}
 
 /*
 	.all-main-page section{
@@ -551,12 +596,15 @@
 }
 
 @media (max-width: 800px){
+	.total-invested.second-page {
+		height: 750px;
+	}
 	.inner-intro {
 	    width: 80%;
 	}
 
 	.monetization .mission-list ul{
-		padding-left: 0;
+		padding: 0 0 50px 0;
 	}
 
 	.monetization .inner-platform .image{
@@ -1063,6 +1111,7 @@
 
 	.second-page-body  .ico-structure{
 		margin-top: -50px;
+		padding: 25px;
 	}
 
 
