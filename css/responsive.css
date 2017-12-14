@@ -223,18 +223,28 @@
 	#monetization .item-body {
 	    margin-bottom: -1px;
 	}
+<<<<<<< HEAD
 	.inner-documents .item-body h4 {
 		font-size: 26px;
 	}
 	.inner-documents .item-body {
 		padding: 60px 50px 80px 50px;
 	}
+=======
+
+	.inner-intro {
+	    padding-top: 80px;
+	}
+
+
+
+>>>>>>> 2b29024f0a06917dfa49f282c1d6cada9f0fed24
 }
 
 @media (max-width: 991px){
 	.menu ul li {
 	    display: inline-block;
-    	padding: 40px 10px;
+    	padding: 20px 10px;
 	    color: white;
 	    font-size: 24px;
 	}
@@ -242,6 +252,7 @@
 	.menu ul {
     	flex-direction: column;
     	text-align: center;
+    	padding-top: 40px;
 	}
 
 	.menu li:first-child {
@@ -259,6 +270,7 @@
 
 	.menu{
 		height: 100vh;
+		overflow: scroll;
 	}
 
 	.inner-intro {
@@ -574,6 +586,7 @@
 	.second-page-body  .ico-structure{
 		margin-top: -50px;
 	}
+<<<<<<< HEAD
 	.mission-list p {
 		padding-left: 40px;
 		font-size: 28px;
@@ -584,6 +597,17 @@
 	.deset {
 		margin-left:0;
 	}
+=======
+
+	.top-image img {
+	    width: 100%;
+	}
+
+
+
+
+
+>>>>>>> 2b29024f0a06917dfa49f282c1d6cada9f0fed24
 
 /*
 	.all-main-page section{
