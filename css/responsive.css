@@ -223,22 +223,18 @@
 	#monetization .item-body {
 	    margin-bottom: -1px;
 	}
-<<<<<<< HEAD
 	.inner-documents .item-body h4 {
 		font-size: 26px;
 	}
 	.inner-documents .item-body {
 		padding: 60px 50px 80px 50px;
 	}
-=======
 
 	.inner-intro {
 	    padding-top: 80px;
 	}
 
 
-
->>>>>>> 2b29024f0a06917dfa49f282c1d6cada9f0fed24
 }
 
 @media (max-width: 991px){
@@ -586,18 +582,19 @@
 	.second-page-body  .ico-structure{
 		margin-top: -50px;
 	}
-<<<<<<< HEAD
 	.mission-list p {
 		padding-left: 40px;
 		font-size: 28px;
 	}
-	.inner-platform .image img {
+	.inner-platform .image-two img {
 		width: 70%;
+	}
+	.inner-platform .image img {
+		width: 100%;
 	}
 	.deset {
 		margin-left:0;
 	}
-=======
 
 	.top-image img {
 	    width: 100%;
@@ -607,7 +604,6 @@
 
 
 
->>>>>>> 2b29024f0a06917dfa49f282c1d6cada9f0fed24
 
 /*
 	.all-main-page section{
@@ -669,9 +665,14 @@
 	.invested-item img {
 	    padding-left: 20px;
 	}
-
-	.invested-item,.invested-item-2{
-	    height: 80px;
+	.invested-item img {
+		padding-left: 30px;
+	}
+	.invested-item, .invested-item-2 {
+		height: 110px;
+	}
+	.invested-item, .invested-item-2 img {
+		padding-right: 30px;
 	}
 
 	.invested-bg {
@@ -877,10 +878,12 @@
 }
 
 @media (max-width: 480px){
+	.invested-item, .invested-item-2 {
+		height: 65px;
+	}
 	.inner-intro {
 	    width: 90%;
 	}
-
 	.countdown-block{
 		width: 50px;
 	}
