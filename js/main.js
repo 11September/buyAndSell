@@ -57,4 +57,17 @@ $(document).ready(function() {
 	    $(".third-token .inner-text").toggleClass('hide');
     });
 
+
+    $(".our-team .item-container").hover(function (){
+    	$(this).children( ".our-team .overlay" ).toggleClass('on-hover');
+    	$(this).children( ".our-team .person-info").toggleClass('persona-info-active');
+    	$(".our-team .item-container .overlay").toggleClass('on-hover');
+    });
+
+    $(".advisors .item-container").hover(function (){
+    	$(this).children( ".advisors .overlay" ).toggleClass('on-hover');
+    	$(this).children( ".advisors .person-info").toggleClass('persona-info-active');
+    	$(".advisors .item-container .overlay").toggleClass('on-hover');
+    });
+
 });

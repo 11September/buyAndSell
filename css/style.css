@@ -1410,7 +1410,7 @@ h2 {
     padding: 30px 15px;
 }
 
-.team-image img:hover {
+.team-image .item-container:hover {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
@@ -2138,4 +2138,49 @@ ul.pgwSlider > li, .pgwSlider > .ps-list > li{
      padding: 0 40px; 
      font-size: 16px;
      line-height: 1.5;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #e1e1e18f;
+
+    display: none;
+}
+
+.on-hover{
+    display: block;
+}
+
+.item-container{
+    position: relative;
+}
+
+.person-info{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background: #ffffffa3;
+    display: none;
+}
+
+.persona-info-active{
+    display: block;
+}
+
+.person-info .name{
+    color: #212F4F;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.person-info .status{
+    color: #212F4F;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 300;
 }
