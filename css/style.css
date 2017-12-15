@@ -1859,7 +1859,7 @@ h2 {
     margin-top: 40px!important;
 }
 
-.modal-dialog{
+.modals-third .modal-dialog{
     width: 60%;
     float: right;
     margin: 0;
@@ -1867,13 +1867,10 @@ h2 {
     
 }
 
-.modal-content{
+.modals-third .modal-content{
    border-radius: 0; 
    height: 100%;
    overflow-y: scroll;
-/*    background-image: url(../images/bio4.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;*/
 }
 
 #myModal{
@@ -2183,4 +2180,167 @@ ul.pgwSlider > li, .pgwSlider > .ps-list > li{
     font-size: 17px;
     font-style: italic;
     font-weight: 300;
+}
+
+.modals-first .person-info{
+    display: block;
+    background: none;
+    position: static;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.person-info .description{
+    color: #212F4F;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.modals-first .modal-body{
+    text-align: center;
+}
+
+.modals-first .social-items{
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+.modals-first .social-items img{
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.modals-first  button.close{
+    opacity: 1;
+
+}
+
+.modals-first  button.close span{
+    font-size: 30px;
+    color: grey;
+}
+
+.road-line{
+    width: 90%;
+    height: 15px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.road-point{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.road-point:hover{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    bottom: 22px;
+}
+
+.road-point:hover > .road-inner{
+    width: 40px;
+    height: 40px;
+
+    background: rgba(254,140,26,1);
+    background: -moz-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(13,18,29,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,140,26,1)), color-stop(100%, rgba(13,18,29,1)));
+    background: -webkit-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(13,18,29,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(13,18,29,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(13,18,29,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,140,26,1) 0%, rgba(13,18,29,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8c1a', endColorstr='#0d121d', GradientType=0 );
+}
+
+.road-inner{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+
+    background: rgba(95,125,193,1);
+    background: -moz-linear-gradient(top, rgba(95,125,193,1) 0%, rgba(13,18,29,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(95,125,193,1)), color-stop(100%, rgba(13,18,29,1)));
+    background: -webkit-linear-gradient(top, rgba(95,125,193,1) 0%, rgba(13,18,29,1) 100%);
+    background: -o-linear-gradient(top, rgba(95,125,193,1) 0%, rgba(13,18,29,1) 100%);
+    background: -ms-linear-gradient(top, rgba(95,125,193,1) 0%, rgba(13,18,29,1) 100%);
+    background: linear-gradient(to bottom, rgba(95,125,193,1) 0%, rgba(13,18,29,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f7dc1', endColorstr='#0d121d', GradientType=0 );
+
+    position: relative;
+}
+
+
+.road-line .road-point:nth-child(odd) .point-info{
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.road-line .road-point:nth-child(even) .point-info{
+    position: absolute;
+    top: -75px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.road-body{
+    margin-top: 150px;
+}    
+
+.road-point.even:hover > .point-info{
+    top: 75px!important;
+}
+
+.road-point:hover > .point-info{
+    font-size: 30px!important;
+    color: #FE8C1A;
+}
+
+.road-point.disable .road-inner{
+    background: white;
+}
+
+.road-point.disable:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.road-point.disable:hover > .road-inner{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: white;*-**
+}
+
+.road-point.disable.even:hover > .point-info{
+    top: 50px!important;
+}
+
+.road-point.disable:hover > .point-info{
+    font-size: 20px!important;
+    color: white;
 }
