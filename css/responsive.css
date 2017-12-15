@@ -287,9 +287,6 @@
 	.team-bg {
 	    height: 1550px;
 	}
-
-
-
 }
 
 @media (max-width: 991px){
@@ -642,8 +639,11 @@
 		padding-left: 40px;
 		font-size: 28px;
 	}
-	.inner-platform .image img {
+	.inner-platform .image-two img {
 		width: 70%;
+	}
+	.inner-platform .image img {
+		width: 100%;
 	}
 	.deset {
 		margin-left:0;
@@ -713,9 +713,14 @@
 	.invested-item img {
 	    padding-left: 20px;
 	}
-
-	.invested-item,.invested-item-2{
-	    height: 80px;
+	.invested-item img {
+		padding-left: 30px;
+	}
+	.invested-item, .invested-item-2 {
+		height: 110px;
+	}
+	.invested-item, .invested-item-2 img {
+		padding-right: 30px;
 	}
 
 	.invested-bg {
@@ -936,10 +941,12 @@
 }
 
 @media (max-width: 480px){
+	.invested-item, .invested-item-2 {
+		height: 65px;
+	}
 	.inner-intro {
 	    width: 90%;
 	}
-
 	.countdown-block{
 		width: 50px;
 	}

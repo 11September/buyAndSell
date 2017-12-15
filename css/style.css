@@ -758,7 +758,9 @@ ul li {
 .invested-item img {
     padding-left: 55px;
 }
-
+.invested-item-2 img {
+    padding-left: 55px;
+}
 .invested-item-in {
     width: 80%;
     display: flex;
