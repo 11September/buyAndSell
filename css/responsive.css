@@ -5,12 +5,7 @@
 	    margin-left: 50px;
 	}
 
-	.invested-bg {
-	    position: absolute;
-		top: -180px;
-	    z-index: 1;
-	    width: 100%;
-	}
+
 
 	.components .image .ipad-2{
 	    width: 600px;
@@ -24,9 +19,9 @@
 @media (max-width: 1366px){
 	.menu ul li {
 	    display: inline-block;
-	    padding: 60px 15px;
+	    padding: 65px 15px;
 	    color: white;
-	    font-size: 24px;
+	    font-size: 20px;
 	}
 
 	.intro .countdown-sep {
@@ -94,14 +89,23 @@
 	.inner-documents .item-body h4 {
 		font-size: 27px;
 	}
+
+	.our-team {
+	    position: relative;
+	    height: 1390px;
+	}
+
+	.team-bg {
+	    height: 1800px;
+	}
 }
 
 @media (max-width: 1200px){
 	.menu ul li {
 	    display: inline-block;
-	    padding: 60px 10px;
+	    padding: 65px 10px;
 	    color: white;
-	    font-size: 20px;
+    	font-size: 18px;
 	}
 
 	.countdown-block span {
@@ -223,22 +227,69 @@
 	#monetization .item-body {
 	    margin-bottom: -1px;
 	}
-<<<<<<< HEAD
+
 	.inner-documents .item-body h4 {
 		font-size: 26px;
 	}
 	.inner-documents .item-body {
 		padding: 60px 50px 80px 50px;
 	}
-=======
 
 	.inner-intro {
 	    padding-top: 80px;
 	}
 
+	.social-block {
+	    position: absolute;
+	    top: 23%;
+	}
+
+	.social-block .right-part {
+	    height: 900px;
+	}
+
+	.social-block .left-part{
+		position: relative;
+    	top: -100px;
+	}
+
+	.menu li.item-six {
+	    padding-left: 20px;
+	}
+
+	.second-page-body .menu ul li {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.third-page .menu ul li {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+
+	.third-page .menu li.item-six {
+	    padding-left: 20px;
+	}
+
+	.total-invested .platform-title {
+	    padding-top: 120px;
+	}
+
+	.advantages {
+	    height: 2328px;
+	}
+
+	.our-team {
+	    position: relative;
+	    height: 1140px;
+	}
+
+	.team-bg {
+	    height: 1550px;
+	}
 
 
->>>>>>> 2b29024f0a06917dfa49f282c1d6cada9f0fed24
+
 }
 
 @media (max-width: 991px){
@@ -362,7 +413,7 @@
 		margin-bottom: 30px;
 	}
 	.subscribe {
-		margin-top: 80px;
+		margin-top: 75px;
 	}
 	.documents{
 		background: #212f4f;
@@ -586,7 +637,7 @@
 	.second-page-body  .ico-structure{
 		margin-top: -50px;
 	}
-<<<<<<< HEAD
+
 	.mission-list p {
 		padding-left: 40px;
 		font-size: 28px;
@@ -597,26 +648,19 @@
 	.deset {
 		margin-left:0;
 	}
-=======
 
 	.top-image img {
 	    width: 100%;
 	}
 
-
-
-
-
->>>>>>> 2b29024f0a06917dfa49f282c1d6cada9f0fed24
-
-/*
-	.all-main-page section{
-	    background-color: #212F4F;
+	.inner-intro {
+	    padding-top: 50px;
 	}
 
-	.ico-structure-bg,.monetization-bg{
-		display: none;
-	}*/
+	#monetization {
+	    height: auto;
+	}
+
 }
 
 @media (max-width: 800px){
@@ -781,9 +825,16 @@
 		padding-top: 200px;
 	}
 
-
+	.invested-bg {
+	    top: -60px;
+	}
 }
 
+@media (max-width: 768px){
+	.accordion .panel-default {
+	    margin-right: 50px;
+	}
+}
 
 @media (max-width: 600px){
 
@@ -874,6 +925,14 @@
 	    margin-top: -50px;
 	}
 
+	.intro-header {
+	    margin-bottom: 20px;
+	}
+
+	.intro .countdown-center {
+	    margin-top: 20px;
+	}
+
 }
 
 @media (max-width: 480px){
@@ -887,6 +946,8 @@
 
 	.countdown-block .countdown-block-main{
 		width: 50px;
+    	font-size: 30px;
+
 	}
 
 	.intro-header {
@@ -894,11 +955,11 @@
 	}
 
 	.intro-sub-header {
-	    font-size: 30px;
+	    font-size: 26px;
 	}
 
 	.intro .countdown-span {
-	    font-size: 16px;
+	    font-size: 12px;
 	    color: #FE8C1A;
 	    margin-top: 0px;
 	}
@@ -1136,6 +1197,40 @@
 	.second-page-body  .ico-structure{
 		margin-top: -50px;
 		padding: 25px;
+	}
+
+	.language-block {
+	    top: 45%;
+	    left: -80px;
+	}
+
+	.social-block .left-part {
+	    width: 30px;
+	}
+
+	.language-block {
+	    left: -90px;
+	}
+
+	.intro-header {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.inner-intro {
+	    padding-top: 100px;
+	}
+
+	.ico-two {
+	    margin: 20px 10px;
+	}
+
+	.buy-platform {
+	    top: -25px;
+	}
+
+	.buy-platform .inner-trader .platform-title {
+	    padding-top: 200px;
 	}
 
 

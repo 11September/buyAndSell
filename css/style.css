@@ -205,13 +205,11 @@ a {
 .demand-tokens {
     position: relative;
     margin-top: 0;
-    background: #212f4f;
-
 }
 
 .tokens-bg {
     position: absolute;
-    top: -350px;
+    top: -230px;
     z-index: 2;
     right: 0;
     height: 700px;
@@ -227,6 +225,7 @@ a {
     top: 0;
     z-index: 1;
     width: 100%;
+    height: 1802px;
 }
 
 /*Documents style */
@@ -410,7 +409,7 @@ a {
 
 .advantages {
     position: relative;
-    height: auto;
+    height: 2319px;
 }
 
 .inner-platform {
@@ -420,7 +419,7 @@ a {
 
 .inner-trader{
 	position: relative;
-    z-index: 2;
+    z-index: 3;
     top: 0;
 }
 
@@ -439,6 +438,7 @@ a {
 
 .inner-invested{
     padding-top: 80px;
+    z-index: 4;
 }
 
 .platform-title {
@@ -525,7 +525,7 @@ ul li {
     text-align: center;
     background: #212F4F;
     padding-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 91px;
     position: relative;
     padding-left: 30px;
     padding-right: 30px;
@@ -820,12 +820,13 @@ ul li {
 
 .invested-bg {
     position: absolute;
-    top: -200px;
+    top: -150px;
     left: 0;
-    z-index: 1;
+    z-index: 3;
     width: 100%;
 	height: 175%;
 }
+        
 
 .switch-btn {
     height: 50px;
@@ -1308,10 +1309,12 @@ h2 {
     top: -200px;
     z-index: 1;
     width: 100%;
+    height: 1900px;
 }
 
 .our-team {
     position: relative;
+    height: 1470px;
 }
 
 .advisors {
@@ -1377,6 +1380,7 @@ h2 {
 .road-map {
     background: #212f4f;
     position: relative;
+    padding-top: 20px;
 }
 
 .footer-bg {
@@ -1422,7 +1426,14 @@ h2 {
 
 .menu ul li {
     display: inline-block;
-    padding: 60px 25px;
+    padding: 65px 15px;
+    color: white;
+}
+
+.menu ul .anchor a,
+.menu ul .anchor a:hover,
+.menu ul .anchor a:visited{
+    text-decoration: none;
     color: white;
 }
 
@@ -1469,7 +1480,7 @@ h2 {
 }
 
 .menu li:first-child {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .menu li.item-six {
@@ -1649,6 +1660,7 @@ h2 {
 /* monetization third page */
 #monetization{
     padding: 0 70px;
+    height: 888px;
 }
 
 #monetization .item-body{
@@ -1701,7 +1713,7 @@ h2 {
 
 .buy-platform .inner-trader .platform-title {
     margin: 0 auto;
-    padding-top: 380px;
+    padding-top: 450px;
     padding-bottom: 50px;
     color: #212f4f;
 }
@@ -1754,9 +1766,6 @@ h2 {
     position: relative;
 }
 
-.components-bg{
-    background: #212F4F;
-}
 
 .components .inner-platform .image{
     padding-right: 0;
@@ -1834,10 +1843,14 @@ h2 {
 }
 
 .inner-documents .item-body:hover{
-    position: relative;
-    top: -20px;
+    margin-top: -20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     cursor:pointer;
+
+    -webkit-transition: margin 0.8s ease-in-out;
+    -moz-transition: margin 0.8s ease-in-out;
+    -o-transition: margin 0.8s ease-in-out;
+    transition: margin 0.8s ease-in-out;
 }
 
 .inner-documents .row.second{
@@ -1845,7 +1858,7 @@ h2 {
 }
 
 .modal-dialog{
-    width: 50%;
+    width: 60%;
     float: right;
     margin: 0;
     height: 100%;
@@ -1855,9 +1868,10 @@ h2 {
 .modal-content{
    border-radius: 0; 
    height: 100%;
-    background-image: url(../images/bio4.png);
+   overflow-y: scroll;
+/*    background-image: url(../images/bio4.png);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 #myModal{
@@ -1928,7 +1942,7 @@ h2 {
     align-items: center;  
     right: 0;
     cursor: pointer;
-    z-index: 1;
+    z-index: 3;
     height: 668px;
 }
 
@@ -1939,13 +1953,13 @@ h2 {
     border-radius: 158px 0 0 158px;
 
     background: rgba(254,140,26,1);
-    background: -moz-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(254,140,26,1)), color-stop(50%, rgba(137,75,73,1)), color-stop(100%, rgba(19,9,119,1)));
-    background: -webkit-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: -o-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: -ms-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: linear-gradient(to right, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8c1a', endColorstr='#130977', GradientType=1 );
+    background: -moz-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,140,26,1)), color-stop(50%, rgba(126,70,112,1)), color-stop(71%, rgba(72,40,148,1)), color-stop(100%, rgba(19,9,119,1)));
+    background: -webkit-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8c1a', endColorstr='#130977', GradientType=0 );
     }
 
 
@@ -1964,13 +1978,13 @@ h2 {
     width: 150px;
 
     background: rgba(254,140,26,1);
-    background: -moz-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(254,140,26,1)), color-stop(50%, rgba(137,75,73,1)), color-stop(100%, rgba(19,9,119,1)));
-    background: -webkit-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: -o-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: -ms-linear-gradient(left, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    background: linear-gradient(to right, rgba(254,140,26,1) 0%, rgba(137,75,73,1) 50%, rgba(19,9,119,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8c1a', endColorstr='#130977', GradientType=1 );
+    background: -moz-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,140,26,1)), color-stop(50%, rgba(126,70,112,1)), color-stop(71%, rgba(72,40,148,1)), color-stop(100%, rgba(19,9,119,1)));
+    background: -webkit-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,140,26,1) 0%, rgba(126,70,112,1) 50%, rgba(72,40,148,1) 71%, rgba(19,9,119,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe8c1a', endColorstr='#130977', GradientType=0 );
 }
 
 .social-block.open{
@@ -1990,5 +2004,136 @@ h2 {
 .social-items .item{
     height: 70px;
     width: 70px;
-    margin-top: 25px;
+    margin-top: 20px;
+}
+
+.second-page-body .menu ul li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.third-page .menu ul li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.third-page .menu li.item-six {
+    padding-left: 50px;
+}
+
+.total-invested .platform-title{
+    color: white;
+    z-index: 4;
+    position: relative;
+    margin-bottom: 0;
+    padding-top: 60px;
+}
+
+
+.demand-row .inner-text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.demand-row .inner-text p{
+    padding: 0px 35px 0;
+}
+
+
+.first-token:hover,
+.second-token:hover,
+.third-token:hover{
+    cursor: pointer;
+}
+
+.ps-list{
+    position: relative;
+    top: 12px; 
+}
+
+ul.pgwSlider > li, .pgwSlider > .ps-list > li{
+    margin-bottom: 3px!important;
+}
+
+
+.inner-documents{
+    z-index: 3;
+}
+
+.target-row{
+    position: relative;
+    z-index: 2;
+}
+
+.concert-bg{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.fusion-modal .modal-header .close {
+    font-size: 30px;
+    margin-top: -5px;
+    text-shadow: none;
+}
+
+.modals-third .modal-title{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.modals-third .modal-body{
+    padding: 0 0 40px 0;
+}
+
+.modals-third .modal-header{
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+
+.modals-third .modal-content{
+    background-color: #4f88a2;
+}
+
+    
+
+
+.modals-third .modal-header .close {
+    margin-top: -2px;
+    color: white;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.modals-third .modal-body h1{
+    font-size: 26px;
+    margin-top: -79px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 82px;
+    line-height: 80px;
+    background: linear-gradient(to top, #4F88A2, rgba(255, 255, 255, 0));
+    margin-bottom: 0;
+}
+
+
+.modals-third .modal-body img{
+   width: 100%; 
+}
+
+.modals-third .modal-body .text-info p{
+     padding: 0 40px; 
+     font-size: 16px;
+     line-height: 1.5;
 }
