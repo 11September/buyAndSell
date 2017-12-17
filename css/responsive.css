@@ -98,6 +98,10 @@
 	.team-bg {
 	    height: 1800px;
 	}
+
+	.road-line {
+	    width: 80%;
+	}
 }
 
 @media (max-width: 1200px){
@@ -154,6 +158,7 @@
 
 	.our-mission-title {
 	    padding-left: 0;
+	    margin: 0px auto;
 	}
 
 	.mission-list li {
@@ -287,9 +292,21 @@
 	.team-bg {
 	    height: 1550px;
 	}
+
+	.road-line {
+	    width: 80%;
+	    margin-left: 50px;
+	    margin-right: 0;
+	}
+
+	.road-line .road-point:nth-child(even) .point-info {
+	    width: auto;
+	    top: -120px;
+	}
 }
 
 @media (max-width: 991px){
+
 	.menu ul li {
 	    display: inline-block;
     	padding: 20px 10px;
@@ -347,11 +364,11 @@
 	}
 
 	.platform {
-	     padding-top: 20px; 
+	     padding-top: 50px; 
 	}
 
 	.inner-platform.two {
-	    padding-top: 200px;
+	    padding-top: 0px;
 	}
 
 	.mission-list li {
@@ -372,7 +389,7 @@
 	}
 
 	.advantages-investors-content ul li {
-	    font-size: 20px;
+	    font-size: 27px;
 	}
 
 	.mission-list li {
@@ -386,7 +403,7 @@
 	}
 
 	.right-block {
-	    margin-top: 250px;
+	    margin-top: 50px;
 	}
 
 	.demand-tokens-box {
@@ -397,6 +414,14 @@
 	    position: relative;
 	    z-index: 3;
 	    padding-top: 5px;
+	}
+
+	.mission-list ul {
+	    padding-bottom: 20px;
+	}
+
+	.advantages-users-content ul li {
+	    font-size: 27px;
 	}
 
 	.paper-block {
@@ -410,14 +435,16 @@
 		margin-bottom: 30px;
 	}
 	.subscribe {
-		margin-top: 75px;
+		margin-top: 0;
+		padding-top: 100px;
+		padding-bottom: 150px;
 	}
 	.documents{
 		background: #212f4f;
 	}.documents {
     position: relative;
     padding-top: 250px;
-    height: 2835px;
+    height: auto;
 }
 
 	#documents {
@@ -482,7 +509,7 @@
 	}
 
 	.second-page-body .token-trader{
-    	background: #fe8c1a;
+    	background: #212F4F;
 	}
 
 	.second-page-body .monetization-bg {
@@ -490,17 +517,18 @@
 	}
 
 	.second-page-body .monetization{
-		background: #fe8c1a;
+		background: #212F4F;
 		z-index: 2;
 	}
 
 	.second-page-body .total-invested.second-page {
-	    background: #fe8c1a;
+	    background: #212F4F;
+	    height: auto;
 	}
 
 	.second-page-body  .ico-structure {
 	    height: auto;
-	    background: #fe8c1a;
+	    background: #212F4F;
 	}
 
 	.second-page-body .ico-structure-bg{
@@ -508,7 +536,7 @@
 	}
 
 	.monetization .inner-platform.second{
-		    background: #fe8c1a;
+		    background: #212F4F;
 	}
 
 	.ico-structure .inner-ico.second .row {
@@ -543,15 +571,20 @@
 	}
 
 	.third-page .total-invested{
-		background: #fe8c1a;
+		background: #212F4F;
 	}
 
 	.third-page .buy-platform{
-		background: #fe8c1a;
+		background: #212F4F;
+	}
+
+	.advantages-platform .advantages-users-content ul li {
+	    color: white;
 	}
 
 	.third-page .buy-platform .inner-trader .platform-title {
 	    margin: 0px auto;
+	    padding-top: 400px;
 	}
 
 	.components-bg{
@@ -593,7 +626,8 @@
 	}
 
 	.third-page .advantages-platform{
-		background: #fe8c1a;
+		background: #212F4F;
+		height: 1800px;
 	}
 
 	.third-page .advantage-platform-bg{
@@ -601,7 +635,7 @@
 	}
 
 	.third-page #monetization{
-		background: #fe8c1a;
+		background: #212F4F;
 	}
 
 	.third-page  #monetization .documetns-title {
@@ -619,7 +653,7 @@
 	}
 
 	.benefits-subscribe {
-	    background: #fe8c1a;
+	    background: #212F4F;
 	}
 
 	.benefits-subscribe-bg{
@@ -643,7 +677,7 @@
 		width: 70%;
 	}
 	.inner-platform .image img {
-		width: 100%;
+		width: 50%;
 	}
 	.deset {
 		margin-left:0;
@@ -661,9 +695,211 @@
 	    height: auto;
 	}
 
+	.road-line {
+	    width: 15px;
+	    height: 600px;
+	    flex-direction: column;
+	}
+
+	.road-line .road-point{
+		bottom: 0;
+		right: 8px;
+	}
+
+	.road-line .road-point:nth-child(even) .point-info {
+	    left: 30px;
+	    top: 0;
+	}
+
+	.road-line .road-point:nth-child(odd) .point-info {
+		right: 30px;
+	    top: 5px;
+	}
+
+	.road-line .road-point:hover{
+	    right: 22px;
+	}
+
+	.road-point.even:hover > .point-info {
+	    top: 0px!important;
+	}
+
+	.road-line {
+	    margin:0 auto;
+	}
+
+	.road-point:hover > .point-info {
+	    font-size: 20px!important;
+	    color: #FE8C1A;
+	}
+
+	.road-point.even:hover > .point-info {
+		width: 100px;
+	    right: 60px;
+	    font-size: 18px!important;
+	}
+
+	.road-point.odd:hover > .point-info {
+		width: 100px;
+	    left: 60px;
+	    font-size: 18px!important;
+	}
+
+
+
+
+	.road-line .road-point:nth-child(even) .point-info {
+	    width: 250px;
+	    font-size: 16px;
+	}
+
+	.road-line .road-point:nth-child(odd) .point-info {
+	    width: 250px;
+	    font-size: 16px;
+	}
+
+	.road-point.disable .road-inner{
+    	background: white;
+	}
+
+	.road-point.disable:hover{
+	    border-radius: 20px;
+	    position: relative;
+	    right: 8px;
+	    bottom: 0;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    background: white;
+	}
+
+	.road-point.disable:hover > .road-inner{
+	    width: 20px;
+	    height: 20px;
+	    border-radius: 20px;
+	    background: white;
+	}
+
+	.road-point.disable.even:hover > .point-info{
+	    top: 5px!important;
+	    right: 50px;
+	}
+
+	.road-point.disable.odd:hover > .point-info{
+	    top: 0!important;
+	    left: 50px;
+	}
+
+	.road-point.disable:hover > .point-info{
+	    font-size: 20px!important;
+	    color: white;
+	}
+
+	.road-body {
+	    margin-top: 50px;
+	}
+
+	.inner-road {
+	    padding-bottom: 200px;
+	}
+
+	h2,h4{
+		color: white!important;
+	}
+
+	h2:before,h2:after{
+		border-color: white!important;
+	}
+
+	.platform-bg {
+	    display: none;
+	}
+
+	.platform,.advantages,.demand-tokens,.our-team,.inner-invested{
+		background: #212F4F;
+	}
+
+	.blue {
+	    color: white;
+	}
+
+	.accordion .panel-title-child,.panel-body{
+	    border: 2px solid white;
+	    border-radius: 0;
+	}
+
+	.advantages-investors-content ul li{
+		color: white;
+	}
+
+	.advantages {
+	    height: auto;
+	}
+
+	.tokens-bg,.documents-bg,.team-bg{
+		display: none;
+	}
+
+	.subscribe-title {
+    	margin: 0px auto;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    	white-space: normal;
+    }
+
+    .our-team {
+	    height: auto;
+	}
+
+	.platform {
+	    height: auto;
+	}
+
+	.platform {
+	    margin-top: 75px;
+	}
+
+	.advantages-users-content {
+	     margin-top: 0; 
+	}
+
+	.advantages-users-title {
+	    margin: 40px 0;
+	}
+
+	.documents {
+	    padding-top: 100px;
+	}
+
+	.paper-block {
+	    margin-bottom: 50px;
+	}
+
+	.inner-ico h5,.inner-ico.first .ico-structure-text p{
+		color: white;
+	}
+
+	.monetization-title.platform-title {
+	    padding-bottom: 0px;
+	}
+
+	.ico-structure-description {
+	    padding-top: 50px;
+	}
+
+	#monetization-sec .inner-platform.second {
+	    padding-bottom: 0px;
+	}
+
+
+
 }
 
 @media (max-width: 800px){
+	.third-page .buy-platform .inner-trader .platform-title {
+	    padding-top: 350px;
+	}
+
 	.total-invested.second-page {
 		height: 750px;
 	}
@@ -821,17 +1057,50 @@
 	    width: 100%;
 	}
 
-	.advantages-platform{
+	.third-page .advantages-platform{
 		height: auto;
+	}
 
+	.documetns-title {
+	    margin: 30px auto;
 	}
 
 	.third-page #monetization{
-		padding-top: 200px;
+		padding-top: 0;
 	}
 
 	.invested-bg {
 	    top: -60px;
+	}
+
+	.road-line .road-point:nth-child(even) .point-info {
+	    width: 220px;
+	    font-size: 16px;
+	}
+
+	.road-line .road-point:nth-child(odd) .point-info {
+	    width: 220px;
+	    font-size: 16px;
+	}
+
+	.platform {
+	    margin-top: 25px;
+	}
+
+	.mission-list li {
+	    text-shadow: none;
+	}
+
+	.mission-list p {
+	    padding-right: 40px;
+	}
+
+	.ico-structure-image {
+	    width: 250px;
+	}
+
+	.monetization-title.platform-title {
+	    padding-bottom: 0px;
 	}
 }
 
@@ -842,6 +1111,34 @@
 }
 
 @media (max-width: 600px){
+	.platform-title, .our-mission-title {
+	    padding-top: 50px;
+	}
+
+	.mission-list-2 {
+		padding-right: 20px;
+	}
+
+	.components .our-mission-title {
+	    padding-top: 50px;
+	    padding-bottom: 30px;
+	}
+
+	.third-page .buy-platform .inner-trader .platform-title{
+		padding-top: 0;
+	}
+
+	.buy-platform {
+	    height: 850px;
+	}
+
+	.inner-invested {
+	    padding-top: 0px;
+	}
+
+	.mission-list li,.advantages-users-content ul li{
+	    font-size: 18px;
+	}
 
 	.platform-title{
 		white-space: normal;
@@ -915,8 +1212,10 @@
 	}
 
 	.third-page #monetization{
-		padding-top: 300px;
+		padding-top: 0;
 	}
+
+
 
 	.token-trader .mission-list ul {
 	    margin-right: 0;
@@ -938,9 +1237,51 @@
 	    margin-top: 20px;
 	}
 
+	.modals-third .modal-dialog{
+		width: 100%;
+	}
+
 }
 
 @media (max-width: 480px){
+	.person-info .name {
+	    font-size: 16px;
+	}
+
+	.modals-third .modal-body h1 {
+	    height: auto;
+	}
+
+	.modals-first .social-items img.last{
+		margin-right: 10px;
+	}
+
+	.modal-body img{
+		width: 100%;
+	}
+
+	.modals-first .social-items img {
+	    margin-left: 10px;
+	}
+
+	.social-items .item {
+	    height: 40px;
+	    width: 40px;
+	}
+
+	.person-info .status {
+	    font-size: 14px;
+	}
+
+	.person-info{
+		padding: 10px;
+	}
+
+
+	.platform {
+	    margin-top: -115px;
+	}
+
 	.invested-item, .invested-item-2 {
 		height: 65px;
 	}
@@ -1054,7 +1395,7 @@
 	}
 
 	.platform {
-	    height: 2725px;
+	    height: auto;
 	}
 
 	.advantages-bg {
@@ -1071,7 +1412,6 @@
 
 	.advantages-investors-content ul li {
 	    color: white;
-	    text-shadow: 2px 2px 2px black;
 	}
 
 	.advantages-investors-content {
@@ -1080,7 +1420,6 @@
 
 	.advantages-users-content ul li {
 	    color: white;
-	    text-shadow: 2px 2px 2px black;
 	}
 
 	.wrapper-title-advantages-users {
@@ -1089,7 +1428,6 @@
 
 	.advantages-users-title {
 	    font-size: 20px;
-	    text-shadow: 2px 2px 2px black;
 	}
 
 	.advantages-users-title:before {
@@ -1138,7 +1476,7 @@
 	}
 
 	.ico-structure-image {
-	    width: 300px;
+	    width: 250px;
 	}
 
 	.monetization .inner-platform.second {
@@ -1147,6 +1485,10 @@
 
 	.monetization .advantages-list ul {
 	    padding-left: 20px;
+	}
+
+	.invested-item-2 img {
+	    padding-left: 0px;
 	}
 
 	.monetization-title{
@@ -1238,6 +1580,28 @@
 
 	.buy-platform .inner-trader .platform-title {
 	    padding-top: 200px;
+	}
+
+	.road-line .road-point:nth-child(odd) .point-info {
+	    width: 120px;
+	    font-size: 16px;
+	}
+
+	.road-line .road-point:nth-child(even) .point-info {
+	    font-size: 16px;
+	    width: 120px;
+	}
+
+	.road-point.even:hover > .point-info {
+	    font-size: 16px!important;
+	    width: 80px;
+	    right: 80px;
+	}
+
+	.road-point.odd:hover > .point-info {
+	    font-size: 16px!important;
+	    width: 80px;
+	    left: 80px;
 	}
 
 

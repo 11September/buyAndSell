@@ -969,6 +969,7 @@ ul li {
     letter-spacing: 10px;
     padding-left: 50px;
     line-height: 66px;
+    padding-right: 50px;
 }
 
 .our-mission-title:before {
@@ -1390,6 +1391,12 @@ h2 {
     position: absolute;
     z-index: 1;
     width: 100%;
+    right: 0;
+}
+
+.inner-advisors{
+    position: relative;
+    z-index: 2;
 }
 
 .inner-road {
@@ -1399,6 +1406,7 @@ h2 {
 
 .intro {
     height: 100vh;
+    position: relative;
 }
 
 .total-invested {
@@ -1625,11 +1633,11 @@ h2 {
     padding-bottom: 85px;
 }
 
-.monetization .inner-platform.second{
+#monetization-sec .inner-platform.second{
     background: #212F4F;
     z-index: 1;
     padding-top: 350px;
-    padding-bottom: 505px;
+    padding-bottom: 300px;
     top: -250px;
 }
 .monetization .advantages-list span{
@@ -2161,7 +2169,7 @@ ul.pgwSlider > li, .pgwSlider > .ps-list > li{
     padding: 20px;
     text-align: center;
     width: 100%;
-    background: #ffffffa3;
+    background: #ffffffd6;
     display: none;
 }
 
@@ -2204,6 +2212,7 @@ ul.pgwSlider > li, .pgwSlider > .ps-list > li{
     flex-direction: row;
     padding-bottom: 20px;
     padding-top: 0;
+    justify-content: center;
 }
 
 .modals-first .social-items img{
@@ -2343,4 +2352,133 @@ ul.pgwSlider > li, .pgwSlider > .ps-list > li{
 .road-point.disable:hover > .point-info{
     font-size: 20px!important;
     color: white;
+}
+
+.road-line {
+    width: 85%;
+}
+
+#monetization-sec .subscribe{
+
+}
+
+
+.platform-title:before,
+.platform-title:after{
+    border-color: white;
+}
+
+.buy-platform .platform-title:before,
+.buy-platform .platform-title:after{
+    border-color: #212F4F;
+}
+
+.advantages-platform .advantages-users-title:before,
+.advantages-platform .advantages-users-title:after{
+    border-color: #212F4F;
+}
+
+.advantages-platform .top-block .platform-title:before,
+.advantages-platform .top-block .platform-title:after{
+    border-color: #212F4F;
+}
+
+.token-trader .our-mission-title{
+        margin: 0 auto;
+        margin-top: 130px;
+        margin-bottom: 60px;
+}
+
+.ico-structure .platform-title:before,
+.ico-structure .platform-title:after{
+    border-color: #212F4F;
+}
+
+#buy-platform .platform-title:before,
+#buy-platform .platform-title:after{
+    border-color: #212F4F;
+}
+
+.documetns-title:before,
+.documetns-title:after{
+    border-color: #212F4F;
+}
+
+
+.first-page .our-team .subscribe-title{
+    color: #212F4F;
+}
+
+
+.video-overlay{
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background: #212f4fb8;
+    z-index: 1;
+    top: 0;    
+}
+
+
+
+
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.count-particles{
+    display: none;
 }

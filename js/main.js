@@ -59,9 +59,10 @@ $(document).ready(function() {
 
 
     $(".our-team .item-container").hover(function (){
+    	$(".our-team .item-container .overlay").toggleClass('on-hover');
     	$(this).children( ".our-team .overlay" ).toggleClass('on-hover');
     	$(this).children( ".our-team .person-info").toggleClass('persona-info-active');
-    	$(".our-team .item-container .overlay").toggleClass('on-hover');
+    	
     });
 
     $(".advisors .item-container").hover(function (){

@@ -11,8 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="all-main-page" id="particles-js">
+<div class="all-main-page first-page" >
     <div class="container-fluid no-pad">
+
+        <!-- count particles -->
+        <div class="count-particles">
+          <span class="js-count-particles">--</span> particles
+        </div>
         <header class="header">
             <div class="menu hiden">
                 <ul id="menu">
@@ -49,7 +54,7 @@
                 </div>
         </div>
 
-        <section class="intro">
+        <section class="intro" >
             <div class="top-image"><img src="images/top-logo.png" alt=""></div>
             <div class="language-block">
                 <a href="#">ENGLISH</a>
@@ -74,6 +79,8 @@
             <video autoplay loop id="video-background" muted plays-inline>
                 <source src="images/video-bg.mp4" type="video/mp4"></source>
             </video>
+
+            <div class="video-overlay"></div>
         </section>
 
         <section class="total-invested">
@@ -817,11 +824,11 @@
         </div>
 
         <div class="social-items">
-            <a href=""></a><img src="images/link-ico.png" alt="" class="item"></a>
-            <a href=""></a><img src="images/link-ico.png" alt="" class="item"></a>
-            <a href=""></a><img src="images/twit-ico.png" alt="" class="item"></a>
-            <a href=""></a><img src="images/you-ico.png" alt="" class="item"></a>
-            <a href=""></a><img src="images/fb-ico.png" alt="" class="item"></a>
+            <a href=""><img src="images/link-ico.png" alt="" class="item"></a>
+            <a href=""><img src="images/link-ico.png" alt="" class="item"></a>
+            <a href=""><img src="images/twit-ico.png" alt="" class="item"></a>
+            <a href=""><img src="images/you-ico.png" alt="" class="item"></a>
+            <a href=""><img  src="images/fb-ico.png" alt="" class="item last"></a>
         </div>
 
 
@@ -839,7 +846,9 @@
 <script src="js/jquery.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/main.js"></script>
-<script src="js/particles.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/stats.js"></script>
 
 
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>-->
@@ -852,13 +861,6 @@
             $(this).html(event.strftime('<div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-days">%D</h4></div><span class="countdown-span">days</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-hours">%H</h4></div><span class="countdown-span">hours</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-minutes">%M</h4></div><span class="countdown-span">minutes</span></div><div class="countdown-sep">:</div><div class="countdown-block"><div class="countdown-block-main"><h4 id="countdown-seconds">%S</h4></div><span class="countdown-span">seconds</span></div><div class="clear"></div>'));
         });
     });
-</script>
-
-<script>
-    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-  console.log('callback - particles.js config loaded');
-});
 </script>
 
 
